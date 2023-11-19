@@ -13,6 +13,7 @@
   height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
 }
 
+
 .slider a:hover{
   opacity: 0.7;
   cursor: pointer;;

@@ -39,10 +39,14 @@
 
 /* navの動きに関係するCSS ドロップダウンメニュー用のCSS */
 .p-nav__middleSub{
+  top: 100%;
   list-style: none;
   background-color: white;
-  position: absolute;/*subメニューを消す*/
-  display: none;/*subメニューを消す */
+  /*subメニューを消す*/
+  position: absolute;
+  /*subメニューを消す */
+  display: none;
+  transition: opacity .3s; /* 不透明度の変化をアニメーション化 */
 }
 
 .p-nav__middleSub li{
