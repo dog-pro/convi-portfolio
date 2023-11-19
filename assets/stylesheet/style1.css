@@ -1,0 +1,830 @@
+@charset "UTF-8";
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, 'Droid Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* main */
+.p-title{
+  text-align: center;
+  line-height: 0.5;
+}
+
+
+/* PC style */
+@media screen and (min-width: 769px) {
+body{
+  min-width: 1174px;
+}
+
+/* header */
+
+/* nav */
+.p-nav_pc{
+  min-width: 1174px;
+  height: 60px;
+  padding: 0.5%;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  /*以下position:fixedによる崩れ修正*/
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* left */
+.p-nav__left a{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.p-nav__left a:hover{
+  opacity: 0.7;
+}
+
+.p-nav__left img{
+  width: 4.5vw;
+  height: 2.3vh;
+  margin-left: 3%;
+}
+
+.p-nav__left a > p{
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.p-nav__sp{
+  display: none;
+}
+
+/* middle */
+/* middleはdropDown.cssに記載 */
+
+/* right */
+/* rightはdropDown.cssに記載 */
+
+/* nav */
+.p-hamburger{
+  display: none;
+}
+
+/* main */
+.p-titleImg__big{
+  width: 1.5vw;
+  height: 3vh;
+}
+
+.p-titleImg__small{
+  width: 1vw;
+  height: 1.5vh;
+}
+.p-title > h2{
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #535354;
+  text-align: center;
+  letter-spacing: 0.05em
+}
+.p-title > p{
+  margin: 3% 0 5%;
+  font-size: 10px;
+  color: #a8a9a9;
+}
+
+/* attention */
+.p-attention__sp{
+  display: none;
+}
+.p-attention__pc{
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
+.p-attention__container{
+  color: #5d7dbf;
+  margin: 0 auto;  
+  border:5px solid #5d7dbf;
+  padding: 1% 26%;
+  text-align: center;
+}
+.p-attention__list{
+  text-align: left;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.p-attention__list:first-child{
+  text-decoration:underline double;
+  padding: 1%;
+  text-align: center;
+}
+.p-attention__Button{
+  width: 25%;
+  height: 30px;
+  background-color: #5d7dbf;
+  color: white;
+  font-size: 30%;
+  margin: 0 auto;
+  padding: 2.3em 1em 0.4em;
+}
+/* .p-attention__button{
+  width: 150px;
+  height: 27px;
+  background: #5d7dbf;
+  color: white;
+  padding: 5px 27px;
+  font-size: 80%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.p-attention__button:hover{
+  opacity: 0.7;
+} */
+
+/* ピックアップ */
+.p-pickup{
+  background-color: #e0f1fc;
+  padding: 60px 0 90px;
+}
+
+/* スライダー */
+/* 内容はslick__others.cssに記載 */
+
+/* ニュース */
+.p-news{
+  position: relative;
+  margin:  0 auto;
+  padding: 65px 0 80px;
+}
+.p-news__list{
+  position: absolute;
+  left: 46.5%;
+  top: 34%;
+  margin-left: 368px;
+}
+.p-news__list a{
+  display: block;
+  position: relative;
+  width: 190%;
+  height: 45%;
+  box-sizing: border-box;
+  background-color: #5d7dbf;
+  text-decoration: none;
+  text-align:left;
+  color: #fff;
+  line-height: 17px;
+  padding: 5% 0 0 35%;
+}
+.p-news__list p{
+  font-size: 12px;
+}
+.p-news__list img{
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 20%;
+}
+.p-scroll{
+  width: 670px;
+  margin:40px auto 0;
+  height: 155px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* スクロール幅の設定 */
+.p-scroll::-webkit-scrollbar{
+  width: 6px;
+}
+
+/* スクロールの背景の設定 */
+.p-scroll::-webkit-scrollbar-track{
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+
+/* ドラックできるスクロール部の設定 */
+.p-scroll::-webkit-scrollbar-thumb{
+  background: #5d7dbf;
+  border-radius: 5px;
+}
+.p-scroll > li{
+  list-style: none;
+  padding: 8px 0;
+  line-height: 1.6;
+}
+.p-scroll > li > a:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+.p-scroll > li > a{
+  color: #5d7dbf;
+  display: flex;
+  letter-spacing: 0.2em;
+}
+.p-scroll p{
+  font-size: 11px;
+}
+.p-scroll__date{
+  margin-right: 10px;
+  font-size: 14px;
+}
+.p-scroll__script{
+  font-size: 14px;
+}
+.p-scroll__newsImg{
+  display: none;
+}
+
+.p-scroll__news::before{
+  background-color: #e7a844;
+  color: white;
+  content: "ニュース";
+  height: 20px;
+  margin-right: 10px;
+  padding: 1px 7px;
+  font-size: 11px;
+  letter-spacing: 0em;
+}
+
+.p-scroll__recruiteImg{
+  display: none;
+}
+
+.p-scroll__recruite::before{
+  background-color: #ee8888;
+  color: white;
+  content: "参加者募集";
+  margin-right: 10px;
+  padding: 1px 7px;
+  font-size: 11px;
+  letter-spacing: 0em;
+}
+
+.p-scroll__creatureImg{
+  display: none;
+}
+
+.p-scroll__creature::before{
+  background-color: #2ea0df;
+  color: white;
+  content: "生きもの情報";
+  margin-right: 10px;
+  padding: 1px 5px;
+  font-size: 11px;
+  letter-spacing: 0em;
+}
+
+/* ・・・ */
+.p-middle{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-middle section{
+  width: 50%;
+}
+
+/* 時間・料金・アクセス */
+.p-time{
+  padding: 7% 0%;
+  background-image: url("C:/Users/msrdi/OneDrive/ドキュメント/Portfolio1/assets/img/time.jpg");
+  background-position: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.p-time::before{ /*背景画像の疑似要素にぼかしを*/
+  background: inherit; /*親要素を継承*/ 
+  content: '';
+/*  position: absolute;*//*ぼかし*/
+  filter: blur(5px);
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  z-index: -1;
+}
+
+/* 常設展示 */
+.p-exhibition{
+  padding: 7% 0%;
+  background-image: url("C:/Users/msrdi/OneDrive/ドキュメント/Portfolio1/assets/img/exibition.jpg");
+  position: relative;     
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  /* flex: 1; */
+}
+
+.c-blueBtn1{
+  width: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.c-blueBtn1__list{
+  width: 100%;
+  background-color: #5d7dbf;
+  margin: 0px 10px 20px;
+  padding: 35px 0 40px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.c-blueBtn1__list::after{
+  background-color: #5471ad;
+  width: 100%;
+  height: 6px;
+  content: "";
+}
+
+.c-blueBtn1__list:hover{
+  opacity: 0.7;
+}
+
+.c-blueBtn1__contents{
+  font-size: 16px;
+  color: white;
+}
+
+.c-blueBtn1__icon{
+  width: 1.5vw;
+  height: 3vh;
+  margin-bottom: 10px;
+}
+
+/* 青ボタン */
+.c-blueBtn{
+  /* width: 42%; */
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.c-blueBtn__list:hover{
+  opacity: 0.7;
+}
+
+.c-blueBtn__contents{
+  font-size: 16px;
+  color: white;
+}
+
+.c-blueBtn__icon{
+  width: 1.5vw;
+  height: 3vh;
+  margin-bottom: 10px;
+}
+
+.c-blueBtn__list{
+  /* width: 46.3%; */
+  width: 230px;
+  background-color: #5d7dbf;
+  margin: 0px 10px 20px;
+  padding: 35px 0 40px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+/* 展示・館内紹介 */
+
+/* subInformation */
+.p-subInformation{
+  padding: 3% 0;
+  align-items: center;
+}
+
+.p-subInformation__container{
+  /* width: 540px; */
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.p-subInformation__container > li{
+  width: 10vw;
+  background-color: #f2f2f2;
+  margin: 0 15px 20px;
+  padding: 35px 0 40px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #e4e2e2;
+  cursor: pointer;
+}
+
+.p-subInformation__container > li::after{
+  background-color: #5471ad;
+  width: 100%;
+  height: 6px;
+  content: "";
+}
+
+.p-subInformation__container > li:hover{
+  opacity: 0.7;
+}
+
+.p-subInformation__container > li > a > p{
+  color: #5471ad;
+  margin-top: 10px;
+}
+
+.p-subInformation__icon{
+  width: 1.5vw;
+  height: 3vh;
+}
+
+/* イベント&スクール */
+/* 内容はslick__others.cssに記載 */
+
+/* ブログ海遊館日記 */
+/* 内容はslick__others.cssに記載 */
+
+/* 公式SNS */
+.p-officialSNS{
+  /* padding: 3% 0 30%; */
+
+  padding: 2% 0 3%;;
+  background-image: url("C:/Users/msrdi/OneDrive/ドキュメント/Portfolio1/assets/img/fishSchool.jpg");
+  position: relative;     
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.p-officialSNS__img{
+  width: 100%;
+  height: 100px;
+  filter: blur(3px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url("C:/Users/msrdi/OneDrive/ドキュメント/Portfolio1/assets/img/fishSchool.jpg"); */
+}
+
+.p-officialSNS__iconContainer{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.p-officialSNS__iconContainer a{
+  margin-left: 5px;
+}
+
+.p-officialSNS__icon{
+  width: 3%;
+}
+
+.p-officialSNS__icon:hover{
+  opacity: 0.5;
+}
+
+
+/* Youtube */
+.p-youtube{
+  /* width: 75vw; */
+  text-align: center;
+  /* margin: 6.25vw auto 0; */
+  padding:0 30%;
+  /* height: 0; */
+  /* position: relative; */
+}
+
+.p-youtube__container{
+/* padding: 0 30%; */
+}
+
+.p-youtube iframe{
+  border-radius: 10px;
+  min-width: 550px;
+  /* width: 100%; */
+  min-height: 315px;
+  /* height: 30%; */
+}
+
+
+/* その他 */
+.p-others{
+  position: relative;
+  padding-top: 3%;
+  background-color: #f4f4f4;
+}
+
+.p-others > ul{
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  text-decoration: none;
+}
+
+.p-others > ul > li{
+  position: relative;
+  width: 21.2%;
+  /* height: 15vh; */
+  margin: 0 5% 2% 0;
+  padding: 2% 0;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #c5d0e4;
+}
+
+.p-others > ul > li > a{
+  display: block;
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+  /* line-height: 3; */
+  color: #5e7dbe;
+}
+
+.p-others p{
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+}
+
+.p-others > ul > li:hover{
+  opacity: 0.5;
+}
+
+.p-others > ul > li:nth-child(4){
+  margin-right: 0;
+}
+
+.p-others > ul > li:nth-child(8){
+  margin-right: 0;
+}
+
+.p-others__title{
+  display: block;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1.5;
+  min-height: 40px;
+}
+
+.p-others__img{
+  width: 20%;
+  margin: 5% 0;
+}
+
+.p-others__link{
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  right: 2px;
+  bottom: 2px;
+}
+
+/* sitemap */
+.c-sitemap{
+  display: flex;
+  /* position: absolute;
+  left: 0;
+  bottom: -14.4%; */
+  position: relative;
+  margin-top: 2%;
+  width: 100px;
+  height: 25px;
+
+  background-color: #fea8a8;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.c-sitemap img{
+  position: absolute;
+  top: 26%;
+  right: 3%;
+  width: 12%;
+  transform: rotate(90deg);
+}
+
+/* .c-sitemap::after{
+  background-color: white;
+  color: #fea8a8;
+  content: "↓";
+  position: absolute;
+  top: 95%;
+  right: 88.7%;
+  border-radius: 50%;
+  font-weight: bold 3px;
+} */
+
+.c-sitemap p{
+display: block;
+text-align: left;
+padding-left: 5px;
+font-size: 12px;
+}
+
+.p-sitemap{
+  text-align: left;
+  display: none;
+  background-color: #5d7dbf;
+  padding: 2% 0;  
+  color: white;
+}
+
+.p-sitemap__container{
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.p-sitemap h2{
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.p-sitemap__list{
+  text-align: left;
+  width: 25%;
+  margin-top: 50px;
+}
+
+.p-sitemap__list > li{
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.p-sitemap__list li > ul > li{
+  margin-top: 5px;
+}
+
+.p-sitemap__list a{
+  font-size: 11px;
+  cursor: pointer;
+  line-height: 1.5em;
+}
+
+.p-sitemap__list a:hover{
+  opacity: 0.7;
+}
+
+.p-sitemap__list p{
+  font-weight: bold;
+  line-height: 1.4;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.p-sitemap__list img{
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+
+.p-sitemap__contact{
+  text-align: left;
+  width: 25%;
+  margin-top: 50px;
+}
+
+.p-sitemap__contactSP{
+  display: none;
+}
+
+.p-sitemap__contact > li{
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.p-sitemap__contact li > ul > li{
+  margin-top: 5px;
+}
+
+.p-sitemap__contact a{
+  font-size: 11px;
+  cursor: pointer;
+  line-height: 1.5em;
+}
+
+.p-sitemap__contact a:hover{
+  opacity: 0.7;
+}
+
+.p-sitemap__contact p{
+  font-weight: bold;
+  line-height: 1.4;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.p-sitemap__contact img{
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+/* footer */
+.l-footer{
+  background-color: #5d7dbf;
+  text-align: center;
+}
+
+.l-footer__container{
+  width: 960px;
+  margin: 0 auto;
+  padding: 1.5% 0;
+  text-align: center;
+}
+
+.p-footer__sns{
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.p-footer__sns li{
+  width: 4.5%;
+  height: 1%;
+}
+
+.p-footer__img{
+  width: 80%;
+  height: 70%;
+  /* margin: 0 5px; */
+  cursor: pointer;
+}
+
+.p-footer__img:hover{
+  opacity: 0.5;
+}
+
+.p-footer__nav{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  /* margin: 2%; */
+  margin: 2% 2% 1%;
+}
+
+.p-footer__nav > li{
+  border-left: 1px solid #fff;
+  padding: 0 10px;
+  font-weight: bold;  
+  margin: 0 3px;
+}
+
+.p-footer__nav > li:first-child{
+  border: none;
+}
+
+.p-footer__nav a {
+  /* font-size: 11px; */
+  font-size: 65%;
+  text-decoration: none;
+  color: white
+}
+
+.p-footer__nav > li:hover{
+  opacity: 0.5;
+}
+
+.l-small{
+  color: #fff;
+  /* font-size: 0.5%; */
+  font-size: 11px;
+  font-family: 
+  -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, 'Droid Sans', sans-serif;
+}
+
+.c-sitemap__sp{
+  display: none;
+}
+
+}
+
+

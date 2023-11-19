@@ -1,0 +1,245 @@
+/* SP style */
+@media screen and (max-width: 768px){
+
+.p-hamburger__container{
+  position: absolute;
+  right: 8%;
+}
+
+/* ハンバーガーメニューのボタン本体 */
+.p-hamburger__button{
+  position: relative;
+  height: 5vh;
+  width: 20vw;
+  background-color: white;
+}
+
+/* ハンバーガーメニューの各３本線の本体 */
+.p-hamburger__button span {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 5px;
+  right: -25%;
+  bottom: 10%;
+  background-color: #5d7dbf;
+  transition: all ease .0.5s; /*ハンバーガーメニュークリック時の三本線の動きを遅延*/
+}
+
+/* ハンバーガーメニューの各３本線 */
+.barTop{
+  top: 15%;
+}
+.barMiddle{
+  top: 46%;
+}
+.barBottom{
+  bottom: 15%;
+}
+
+/* 以下、jQueryでつけ外しするスタイル（openクラス） */
+/* 3本線から× */
+.barTop.open{
+  transform: rotate(45deg);
+  transition: transform .3s;
+  top: 15px;
+  right: 70%;
+}
+
+.barMiddle.open{
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.barBottom.open{
+  transform: rotate(-45deg);
+  transition: transform .3s;
+  top: 15px;
+  right: 70%;
+}
+
+/*クリックしたらサイト本体を左にスライド*/
+header,main,footer{
+  transition: all.5s linear;/*クリックしたら左に移動する速度*/
+}
+
+.close{
+  position: fixed;
+  left: -50%;
+  top: 0;
+/* transform: translateX(-450px); */
+/*クリックしたら左に
+  移動*/
+/* display: block; */
+  /* ハンバーガーメニュー展開時、背景を固定 */
+  /* height: 100%; */
+  /* overflow: hidden; */
+}
+
+/* ハンバーガーメニュー中身 */
+/* body{
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+} */
+
+.fixed{
+  overflow: hidden;
+  height: 100vh;
+  
+}
+
+.p-hamburger{
+  position: fixed;
+  /* position: relative; */
+  width: -60%;/*出てくるスライドメニューの幅*/
+  height: 100%;
+  top: 0;
+  /*ハンバーガーがクリックされる前はwindow右側に隠す*/
+  /* right: 0; */
+  /* translate: 70px; */
+  /* padding: 40px 0; */
+  padding: 5% 0 12%;
+  font-size: 4.375vw;
+  /*メニューが多くなったらスクロールできるように*/
+  /* transform: translateX(100%); */
+  overflow-y: auto;
+  /* z-index: -10; */
+  background-color: #5d7dbf;
+  opacity: 0;
+}
+
+.is-active{
+  position: relative;
+  width: 70%;
+  opacity: 1;
+  z-index: 1000;
+  right: -30%;
+  padding: 7.5% 7.5% 11.3%;
+  overflow-x: hidden;
+}
+
+/* .p-hamburger__container{
+  overflow-y: auto;
+  height: 100%;
+  width: 67.3913%;
+  margin: 0 auto;
+  display: block;
+} */
+
+.p-hamburger__nav{
+  padding: 0 10%;
+}
+
+.p-hamburger__nav li{
+  border-bottom: 1px white solid;
+  margin-bottom: 40px;
+  height: 3em;
+  text-align: left;
+  position: relative;
+  padding-left: 30%;
+  /* width: max-content; */
+}
+
+.p-hamburger__nav a{
+  color: white;
+  text-decoration: none;
+} 
+
+.p-hamburger__nav a:hover{
+  opacity: 0.7;
+}
+
+.p-hamburger__nav img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+/* 白ボタン */
+.c-whiteBtn img{
+  width: 100%;
+  height: 30%;
+}
+
+.p-hamburger__sns{
+  color: white;
+  text-align: center;
+  margin-top: 30.5%;
+}
+
+.p-hamburger__snsList{
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.p-hamburger__snsList li{
+  margin: 0 5px;
+  text-align: center;
+}
+
+.p-hamburger__snsList img{
+  width: 100%;
+  height: 40px;
+}
+
+/* ピンクボタン */
+.c-pinkBtn img{
+  width: 100%;
+  height: 30%;  
+  margin: 9.5% auto 0;
+}
+
+/* 検索タグ */
+.p-inputbox{
+  margin-top: 40px;
+  position: relative;
+}
+
+/* .p-inputbox::after{
+background-image: url(./assets/icon/hamburger/search.png);
+content: "";
+width: 20px;
+height: 20px;
+} */
+
+.p-inputbox input{
+  width: 100%;
+  height: 50px;
+  padding: 5%;
+}
+
+.p-inputbox img{
+position: absolute;
+width: 25px;
+height: 25px;
+right: 5%;
+top: 25%;
+}
+
+.c-contact{
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  margin-top: 10%;
+  padding: 10% 17%;
+}
+
+.c-contact a{
+  display: flex;
+  text-align: center;
+}
+
+.c-contact img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5%;
+}
+
+.c-contact p{
+  color: #5d7dbf;
+}
+}

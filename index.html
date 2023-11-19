@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- 文字コードを UTF-8に設定 -->
+    <meta charset="UTF-8" />
+    <!-- スマートフォンなどのデバイスで、ページが原寸大で表示されるように設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- IEのレンダリングモードを標準モードに設定 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/stylesheet/reset.css">
+    <!-- スライダー見た目 CSS -->
+    <link rel="stylesheet" type="text/css"href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/stylesheet/style1.css">
+    <link rel="stylesheet" href="./assets/stylesheet/scrollTop.css">
+    <link rel="stylesheet" href="./assets/stylesheet/dropDown.css">
+    <link rel="stylesheet" href="./assets/stylesheet/slick.css">
+    <link rel="stylesheet" href="./assets/stylesheet/slick__others.css">
+    <!-- <link rel="stylesheet" href="./assets/stylesheet/slick-theme.css"> -->
+    <link rel="stylesheet" href="./assets/stylesheet/style_sp.css">
+    <link rel="stylesheet" href="./assets/stylesheet/openhour.css">
+    <link rel="stylesheet" href="./assets/stylesheet/hamburger.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/b330e4256e.js" crossorigin="anonymous"></script>
+    
+    <title>世界最大級の水族館 海遊館</title>
+  </head>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+  <body>
+    <div class="p-hamburger">
+      <ul class="p-hamburger__nav">
+        <li>
+          <a href="#" target="_blank">
+            <img src="./assets/icon/hamburger/information.png">
+            時間・料金・アクセス
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="./assets/icon/hamburger/fish.png">
+            展示・館内紹介
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="./assets/icon/hamburger/human.png">
+            イベント・楽しみ方
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="./assets/icon/hamburger/heart.png">
+            海遊館とつながる
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="./assets/icon/hamburger/point.png">
+            エリア関連情報
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="./assets/icon/hamburger/hotel.png">
+            ホテル事業者様
+          </a>
+        </li>
+      </ul>
+      
+      <div class="c-whiteBtn">
+        <a><img src="./assets/img/marketplace.png"></a>
+      </div>
+
+      <div class="p-hamburger__sns">
+        <p>海遊館公式SNSアカウント</p>
+        <ul class="p-hamburger__snsList">
+          <li><a><img src="./assets/icon/hamburger/facebook.png"></a></li>
+          <li><a><img src="./assets/icon/hamburger/twitter.png"></a></li>
+          <li><a><img src="./assets/icon/hamburger/youtube.png"></a></li>
+          <li><a><img src="./assets/icon/hamburger/instagram.png"></a></li>
+        </ul>
+      </div>
+
+      <div class="c-pinkBtn">
+        <a><img src="./assets/img/topics.png"></a>
+      </div>
+
+      <div class="p-inputbox">
+        <input type="text" name="" placeholder="キーワードを入力">
+        <a><img src="./assets/icon/hamburger/search.png"></a>
+      </div> 
+
+      <div class="c-contact">
+        <a>
+          <img src="./assets/icon/hamburger/telephone.png">
+          <p>お問い合わせ</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="wrapper">
+    <header>
+      <nav class="p-nav_pc">
+        <!-- left -->
+        <div class="p-nav__left">
+          <a>
+            <img src="./assets/img/logo.png">
+            <!-- <p>海遊館</p> -->
+          </a>
+        </div>
+
+        <!-- middle -->
+        <ul class="p-nav__middle">
+          <li>
+            <a href="#" target="_blank">
+              <img src="./assets/icon/nav/information.png">
+              時間・料金・アクセス
+            </a>
+            <ul class="p-nav__middleSub">
+              <li><a>営業時間・休館日</a></li>
+              <li><a>入館料・その他チケット</a></li>
+              <li><a>交通アクセス・駐車場</a></li>
+              <li><a>団体のお客様</a></li>
+              <li><a>意外と知らない!?</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="#" target="_blank">
+              <img src="./assets/icon/nav/fish.png">
+              展示・館内紹介
+            </a>
+            <ul class="p-nav__middleSub">
+              <li><a>常設展示</a></li>
+              <li><a>企画展&トピックス</a></li>
+              <li><a>海遊館のコンセプト</a></li>
+              <li><a>館内情報</a></li>
+              <li><a>よくあるご質問</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img src="./assets/icon/nav/human.png">
+              イベント・楽しみ方
+            </a>
+            <ul class="p-nav__middleSub">
+              <li><a>ガイドツアー</a></li>
+              <li><a>生きものたちのお食事タイム</a></li>
+              <li><a>夜の海遊館</a></li>
+              <li><a>ニンテンドーDS®・音声ガイド</a></li>
+              <li><a>海遊館探検隊すたんぷノート</a></li>
+              <li><a>イベント&スクール</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img src="./assets/icon/nav/heart.png">
+              海遊館とつながる
+            </a>
+            <ul class="p-nav__middleSub"> 
+              <li><a>ブログ「海遊館日記」</a></li>
+              <li><a>調査・研究情報「海遊館ラボ」</a></li>
+              <li><a>海遊館生きものサロン</a></li>
+              <li><a>海遊館ニュース一覧</a></li>
+              <li><a>ヒストリー</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <img src="./assets/icon/nav/point.png">
+              エリア関連情報
+            </a>
+            <ul class="p-nav__middleSub">
+              <li><a href="#" target="_blank">天保山ハーバービレッジ総合案内</a></li>
+              <li><a>天保山マーケットプレース</a></li>
+              <li><a>なにわ食いしんぼ横丁</a></li>
+              <li><a>レゴランド®・ディスカバリー・センター大阪</a></li>
+              <li><a>天保山大観覧車</a></li>
+              <li><a>観光船サンタマリア</a></li>
+              <li><a>ホテルシーガルてんぽーざん大阪</a></li>
+              <li><a>キャプテンライン</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#" target="_blank">
+            <img src="./assets/icon/nav/hotel.png">
+            ホテル事業者様
+          </a></li>
+        </ul>
+
+        <!-- right -->
+        <div class="p-nav__rightContainer">
+          <ul class="p-nav__rightTop">
+            <li><a><img class="p-nav__rightTopIcon" src="./assets/icon/nav/share.png" alt=""><p>SHARE</p><img class="p-nav__dropdownIcon" src="./assets/icon/nav/dropdown.png"></a>
+              <ul class="p-nav__rightSub">
+                <li><a><img class="p-nav__rightTopIcon" src="./assets/icon/nav/right/facebook_nav.png"></a></li>
+                <li><a><img class="p-nav__rightTopIcon" src="./assets/icon/nav/right/twitter_nav.png"></a></li>
+              </ul>
+            </li>
+
+            <li><a><img class="p-nav__rightTopIcon" src="./assets/icon/nav/language.png"><p>JP</p><img class="p-nav__dropdownIcon" src="./assets/icon/nav/dropdown.png"></a>
+              <ul class="p-nav__rightSub">
+                <li><a>日本語</a></li>
+                <li><a>English</a></li>
+                <li><a>韓国語</a></li>
+                <li><a>中国語</a></li>
+                <li><a>中国語</a></li>
+                <li><a>アラビア語</a></li>
+                <li><a>Others</a></li>
+              </ul>
+            </li>
+            <li class="p-nav__search"><a><img class="p-nav__rightTopIcon" src="./assets/icon/nav/search.png" alt=""></a></li>
+          </ul>
+          <p class="p-nav__rightBottom"><a>
+            <img class="p-nav__rightTopIcon" src="./assets/icon/nav/talk.png">お問い合わせ</a></p>
+        </div>
+      </nav>
+
+      <nav class="p-nav__sp">
+        <!-- left -->
+        <div class="p-nav__leftSP">
+          <div><a><!-- Language -->
+            <img class="p-nav__leftLanguage" src="./assets/icon/nav/language_sp.png">
+          </a></div>
+          <div><!-- Share -->
+            <img class="p-nav__leftShare" src="./assets/icon/nav/share_sp.png">
+          </div>
+        </div>
+        <!-- middle -->
+        <div class="p-nav__middleSP">
+          <a>
+            <img src="./assets/img/logo.png">
+            <!-- <p>海遊館</p> -->
+          </a>
+        </div>
+
+        <!-- right humburger--> 
+        <div class="p-hamburger__container">
+          <div class="p-hamburger__button">
+            <span class="barTop"></span>
+            <span class="barMiddle"></span>
+            <span class="barBottom"></span>
+          </div>
+        </div>
+
+        <!-- <div class="p-hamburger__button">
+          <span class="barTop"></span>
+          <span class="barMiddle"></span>
+          <span class="barBottom"></span>
+        </div>
+
+        <div class="p-hamburger">
+          <ul class="p-hamburger__nav">
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/icon/hamburger/information.png">
+                時間・料金・アクセス
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/icon/hamburger/fish.png">
+                展示・館内紹介
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/icon/hamburger/human.png">
+                イベント・楽しみ方
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/icon/hamburger/heart.png">
+                海遊館とつながる
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/icon/hamburger/point.png">
+                エリア関連情報
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/icon/hamburger/hotel.png">
+                ホテル事業者様
+              </a>
+            </li>
+          </ul>
+          
+          <div class="c-whiteBtn">
+            <a>
+              <img src="./assets/icon/others/wave.png">
+              <p>天保山<br>マーケットプレース</p>
+            </a>
+          </div>
+
+          <div class="p-hamburger__sns">
+            <p>海遊館公式SNSアカウント</p>
+            <ul class="p-hamburger__snsList">
+              <li><a><img src="./assets/icon/hamburger/facebook.png"></a></li>
+              <li><a><img src="./assets/icon/hamburger/twitter.png"></a></li>
+              <li><a><img src="./assets/icon/hamburger/youtube.png"></a></li>
+              <li><a><img src="./assets/icon/hamburger/instagram.png"></a></li>
+            </ul>
+          </div>
+
+          <div class="c-pinkBtn">
+            <a>
+              <div>
+                <img src="./assets/icon/hamburger/pengin.png">
+                <img src="./assets/icon/hamburger/comment.png">
+              </div>
+              <p>おすすめピックアップ</p>
+            </a>
+          </div>
+
+          <div class="p-inputbox">
+            <input type="text" name="" placeholder="キーワードを入力">
+          </div> 
+
+          <div class="c-whiteBtn">
+            <a>
+              <img src="./assets/icon/hamburger/telephone.png">
+              <p>お問い合わせ</p>
+            </a>
+          </div>
+        </div> -->
+      </nav>
+
+      <!-- attention sp -->
+      <!-- <div class="p-attention__sp">
+        <div class="p-attention__container">
+          <div class="p-attention__title">
+            <strong>お客様へのお願い</strong>
+          </div>
+          <ul>
+            <li>・海遊館では館内の混雑緩和のため、WEBで事前予約ができる「海遊館eチケット」の購入をお勧めしています。</li>
+            <li>・当日窓口でのチケット販売数には限りがございます。特に土、日曜日は希望の時間帯が売り切れ、ご入館までに長時間お待ちいただく場合がございます。</li>
+            <li>・６月は平日を中心に学校団体のお客様がご入館されます。予めご了承願います。</li>
+          </ul>
+          <div class="p-attention__Button">
+            <div>
+              <a>海遊館eチケットはこちら</a>
+            </div>
+          </div>
+
+        </div>
+      </div> -->
+
+      <!-- main photo -->
+      <div class="slider__wrapper">
+        <ul class="slider">
+          <li><a><img src="./assets/img/main/main1.jpg" alt="#" /></a></li>
+          <li><a><img src="./assets/img/main/main2.jpg" alt="#" /></a></li>
+          <li><a><img src="./assets/img/main/main3.jpg" alt="#" /></a></li>
+          <li><a><img src="./assets/img/main/main4.jpg" alt="#" /></a></li>
+        </ul>
+      </div>
+      
+      <!-- openHour -->
+      <ul class="p-openhour">
+        <li class="p-openhour__title">
+          <img src="./assets/icon/openHour.png" alt="#">本日の営業時間
+        </li>
+        <li>
+          <p class="p-openhour__time">10:00～20:00</p>
+          <p class="p-openhour__guide">最終入館は閉館の1時間前まで</p>
+        </li>
+        
+        <li class="p-openhour__buttonPink">
+          <a href="#" class="" target="_blank">
+            <p>ただ今のチケット窓口の状況<br>Current<br>ticket counter status.
+            </p>
+            <img src="assets/icon/footer/sitemap-open.png" alt="">
+          </a>
+        </li>
+        
+        <li class="p-openhour__button">
+          <a href="#" class="" target="_blank">
+            <p>今月の営業時間</p>
+            <img src="assets/icon/footer/sitemap-open.png" alt="">
+          </a>
+        </li>
+        <li class="p-openhour__button">
+          <a href="#" class="" target="_blank">
+            <p>海遊館eチケットの購入</p>
+            <img src="assets/icon/footer/sitemap-open.png" alt="">
+          </a>
+        </li>
+      </ul>
+
+      <!-- openHour__sp -->
+      <ul class="p-openhourSP">
+        <div class="p-openhourSP__cover">
+          <div>
+            <li class="p-openhourSP__title">
+              <img src="./assets/icon/openHour.png" alt="#">
+              <strong>本日の営業時間</strong>
+              <p class="p-openhourSP__guide">最終入館は閉館の1時間前まで</p>
+            </li>
+            <li>9:30～20:00</li>
+          </div>
+
+          <li class="p-openhourSP__buttonPink">
+            <a href="#" class="" target="_blank">
+              <p>ただ今のチケット窓口の状況<br>Current<br>ticket counter status.
+              </p>
+              <img src="assets/icon/footer/sitemap-open.png" alt="">
+            </a>
+          </li>
+
+          <li class="p-openhourSP__button">
+            <a href="#" class="" target="_blank">
+              <p>今月の営業時間</p>
+              <img src="assets/icon/footer/sitemap-open.png" alt="">
+            </a>
+          </li>
+
+          <li class="p-openhourSP__button">
+            <a href="#" class="" target="_blank">
+              <p>海遊館eチケットの購入</p>
+              <img src="assets/icon/footer/sitemap-open.png" alt="">
+            </a>
+          </li>
+        </div>
+      </ul>
+
+      <!-- attention -->
+      <!-- <div class="p-attention__pc">
+        <div class="p-attention__container">
+          <p class="p-attention__list">
+            <strong><span>お客様へのお願い</span></strong>
+          </p>
+          <p class="p-attention__list">・海遊館では館内の混雑緩和のため、WEBで事前予約ができる「海遊館eチケット」の購入をお勧めしています。</p>
+          <p class="p-attention__list"><a>・当日窓口でのチケット販売数には限りがございます。特に土、日曜日は希望の時間帯が売り切れ、ご入館までに長時間お待ちいただく場合がございます。</a></p>
+          <p class="p-attention__list"><a>・また、５月、６月は平日を中心に学校団体のお客様がご入館されます。予めご了承願います。</a></p>
+
+          <div class="p-attention__Button">
+            <div>
+              <a>海遊館eチケットはこちら</a>
+            </div>
+          </div>  
+        </div>
+      </div> -->
+
+    </header>
+
+    <main>
+
+      <div class="c-scrollButton"><a class="#"></a></div>
+
+      <!-- ピックアップ -->
+      <section>
+        <div class="p-pickup">
+          <div class="p-title">
+            <img class="p-titleImg__big" src="./assets/icon/main/fish.png" alt="#">
+            <h2  class="p-title__normal">ピックアップ</h2>
+            <p>Pick Up</p>
+          </div>
+
+          <ul class="c-slick__others">
+            <li><a>
+              <img class="c-slick__pickup" src="./assets/img/pickUp/pickUp1.jpg" alt="">
+              <h3>特別展「視点転展」開催中！</h3>
+              <p>生き物たちの世界を通して見え方・感じ方の多様性を体感できる特別展です。</p>
+            </a></li>
+            <li><a>
+              <img class="c-slick__pickup" src="./assets/img/pickUp/pickUp2.jpg" alt="">
+              <h3>安全・安心について</h3>
+              <p>海遊館は、お客様にご協力いただきながら安全・安心に取り組んでいます</p>
+            </a></li>
+            <li><a>
+              <img class="c-slick__pickup" src="./assets/img/pickUp/pickUp3.jpg" alt="">
+              <h3>KAIYUKAN official shop online</h3>
+              <p>こだわりのオリジナルグッズをオンラインでもお求めいただけます！</p>
+            </a></li>
+            <li><a>
+              <img class="c-slick__pickup" src="./assets/img/pickUp/pickUp4.jpg" alt="">
+              <h3>海遊館フォトウエディング</h3>
+              <p>海を旅しているかのような空間で、 おふたりの思い出に残る一枚を…</p>
+            </a></li>
+            <li><a>
+              <img class="c-slick__pickup" src="./assets/img/pickUp/pickUp5.gif" alt="">
+              <h3>商品・イベント情報をお届けします！</h3>
+              <p>商品・イベント情報をいち早くお届けするLINE公式アカウント運用中♪</p>
+            </a></li>
+            <li><a>
+              <img class="c-slick__pickup" src="./assets/img/pickUp/pickUp6.jpg" alt="">
+              <h3>飼育員と直接つながるコミュニティサロン　参加者募集中</h3>
+              <p>有料会員制オンラインサロン。WEBとリアルの両方で、飼育員や館長とお話できる♪</p>
+            </a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ニュース -->
+      <section>
+        <div class="p-news">
+          <div class="p-title">
+            <img class="p-titleImg__big" src="./assets/icon/main/newspaper.png" alt="#">
+            <h2 class="p-title__bold">ニュース</h2>
+            <p>News</p>
+          </div>
+
+          <div class="p-news__list">
+            <div><a>
+              <p>一覧</p>
+              <img src="./assets/icon/news-list-ico.png" alt="">
+            </a></div>
+          </div>
+
+          <ul class="p-scroll">
+            <li><a>
+                <p class="p-scroll__date">2023.01.27</p>
+                <div class="p-scroll__newsImg">ニュース</div>
+                <p class="p-scroll__news">高病原性鳥インフルエンザに対する対策強化について</p>
+              </a></li>
+            <li><a>
+                <p class="p-scroll__date">2023.01.27</p>
+                <div class="p-scroll__recruiteImg">参加者募集</div>
+                <p class="p-scroll__recruite">2月3・4日 「おはよう海遊館」参加者募集中!</p>
+            </a></li>
+            <li><a>
+              <p class="p-scroll__date">2023.01.27</p>
+              <div class="p-scroll__newsImg">ニュース</div>
+              <p class="p-scroll__news">「太平洋」水槽に"オニさんダイバー"が登場します!</p>
+            </a></li>
+            <li><a>
+                <p class="p-scroll__date">2023.01.27</p>
+                <div class="p-scroll__newsImg">ニュース</div>
+                <p class="p-scroll__news">海遊館で「日本中から大阪いらっしゃいキャンペーン2022」クーポンをご利用いただけます</p>
+            </a></li>
+            <li><a>
+              <p class="p-scroll__date">2023.01.27</p>
+              <div class="p-scroll__newsImg">ニュース</div>
+              <p class="p-scroll__news">【休館日のお知らせ】1月10・11日は、海遊館および天保山ハーバービレッジの各施設は休業いたします</p>
+            </a></li>
+            <li><a>
+                <p class="p-scroll__date">2023.01.27</p>
+                <div class="p-scroll__creatureImg">生きもの情報</div>
+                <p class="p-scroll__creature">生き物たちへのクリスマスプレゼント「クリスマスエンリッチメント」を実施します！</p>
+            </a></li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="p-middle">
+        <!-- 時間・料金・アクセス -->
+        <section>
+          <div class="p-time">
+            <div class="p-title">
+              <h2 class="p-title__normal">時間・料金・アクセス</h2>
+              <p>Time・Price・Access</p>
+            </div>
+
+            <ul class="c-blueBtn">
+              <li class="c-blueBtn__list">
+                <a>
+                  <img class="c-blueBtn__icon" src="./assets/icon/Time/openHour.png" alt="">
+                  <p class="c-blueBtn__contents">営業時間・休館日</p>
+                </a>
+              </li>
+              <li class="c-blueBtn__list">
+                <a>
+                  <img class="c-blueBtn__icon" src="./assets/icon/Time/money.png" alt="">
+                  <p class="c-blueBtn__contents">入館料・その他チケット</p>
+                </a>
+              </li>
+              <li class="c-blueBtn__list">
+                <a>
+                  <img class="c-blueBtn__icon" src="./assets/icon/Time/point.png" alt="">
+                  <p class="c-blueBtn__contents">交通アクセス・駐車場</p>
+                </a>
+              </li>
+              <li class="c-blueBtn__list">
+                <a>
+                  <img class="c-blueBtn__icon" src="./assets/icon/Time/team.png" alt="">
+                  <p class="c-blueBtn__contents">団体のお客様</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 展示・館内紹介 -->
+        <section>
+          <div class="p-exhibition">
+            <div class="p-title">
+              <h2 class="p-title__normal">展示・館内紹介</h2>
+              <p>Exhibition・Introduction</p>
+            </div>
+
+            <ul class="c-blueBtn">
+              <li class="c-blueBtn1__list">
+                <a>
+                  <img class="c-blueBtn1__icon" src="./assets/icon/Exhibition/whale.png" alt="">
+                  <p class="c-blueBtn1__contents">常設展示</p>
+                </a>
+              </li>
+              <li class="c-blueBtn__list">
+                <a>
+                  <img class="c-blueBtn__icon" src="./assets/icon/Exhibition/clownfish.png" alt="">
+                  <p class="c-blueBtn__contents">企画展&トピックス</p>
+                </a>
+              </li>
+              <li class="c-blueBtn__list">
+                <a>
+                  <img class="c-blueBtn__icon" src="./assets/icon/Exhibition/cup.png" alt="">
+                  <p class="c-blueBtn__contents">ショップ&カフェ</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+
+      <section>
+        <div  class="p-subInformation">
+          <ul class="p-subInformation__container">
+            <li>
+              <a>
+                <img class="p-subInformation__icon" src="./assets/icon/subInformation/checkbox.png" alt="">
+                <p>ルールとマナー</p>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img class="p-subInformation__icon" src="./assets/icon/subInformation/question.png" alt="">
+                <p>よくあるご質問</p>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img class="p-subInformation__icon" src="./assets/icon/subInformation/wheelchair.png" alt="">
+                <p>ルールとマナー</p>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img class="p-subInformation__icon" src="./assets/icon/subInformation/baby.png" alt="">
+                <p>乳幼児をお連れの方へ</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- イベント＆スクール -->
+      <section>
+        <div class="p-event">
+          <div class="p-title">
+            <img class="p-titleImg__small" src="./assets/icon/main/calendar.png" alt="#">
+            <h2 class="p-title__normal">イベント＆スクール</h2>
+            <p>Event&School</p>
+          </div>
+
+          <ul class="c-slick__others">
+            <li><a>
+              <img src="./assets/img/event&school/event1.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2021/09/02</p>
+                <div class="c-slick__recruit">参加者募集</div>
+              </div>
+
+              <p class="c-slick__content">「パーソナルバックヤードツアー」参加者募集！</p>
+              <div class="c-slick__recruitSP">参加者募集</div>
+            </a></li>
+
+            <li><a>
+              <img src="./assets/img/event&school/event2.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2021/07/09</p>
+                <div class="c-slick__recruit">参加者募集</div>
+              </div>
+
+              <p class="c-slick__content">バックヤードをのぞき見！ 「ウラガワパス」</p>
+              <div class="c-slick__recruitSP">参加者募集</div>
+            </a></li>
+
+            <li><a>
+              <img src="./assets/img/event&school/event3.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2023/04/28</p>
+                <div class="c-slick__recruit">参加者募集</div>
+              </div>
+
+              <p class="c-slick__content">【5/24・5/31・6/9】大阪湾の自然環境を体...</p>
+              <div class="c-slick__recruitSP">参加者募集</div>
+            </a></li>
+
+            <li><a>
+              <img src="./assets/img/event&school/event4.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2023/04/28</p>
+                <div class="c-slick__eventReport">イベントレポート</div>
+              </div>
+
+              <p class="c-slick__content">飼育員と一緒に磯観察！「大阪湾の海辺の自然観察会 ...</p>
+              <div class="c-slick__eventReportSP">イベントレポート</div>
+            </a></li>
+
+            <li><a>
+              <img src="./assets/img/event&school/event5.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2023/04/01</p>
+                <div class="c-slick__eventReport">イベントレポート</div>
+              </div>
+
+              <p class="c-slick__content">【4/1スタート】無料で楽しめるスタンプラリーイベ...</p>
+              <div class="c-slick__eventReportSP">イベントレポート</div>
+            </a></li>
+            
+            <li><a>
+              <img src="./assets/img/event&school/event6.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2023/03/09</p>
+                <div class="c-slick__eventReport">イベントレポート</div>
+              </div>
+
+              <p class="c-slick__content">3/19（日）オンラインイベント『フジツボ地位向上...</p>
+              <div class="c-slick__eventReportSP">イベントレポート</div>
+            </a></li>
+
+            <li><a>
+              <img src="./assets/img/event&school/event7.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2022/12/01</p>
+                <div class="c-slick__eventReport">イベントレポート</div>
+              </div>
+              
+              <p class="c-slick__content">※終了いたしました　海遊館×レゴランド®・ディスカ...</p>
+              <div class="c-slick__eventReportSP">イベントレポート</div>
+            </a></li>
+
+            <li><a>
+              <img src="./assets/img/event&school/event8.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2022/10/25</p>
+                <div class="c-slick__eventReport">イベントレポート</div>
+              </div>
+
+              <p class="c-slick__content">※終了いたしました　飼育員と閉館後の海遊館を巡る　...</p>
+              <div class="c-slick__eventReportSP">イベントレポート</div>
+            </a></li>
+
+            <li><a>
+              <img src="./assets/img/event&school/event9.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2022/10/21</p>
+                <div class="c-slick__recruit">参加者募集</div>
+              </div>
+
+              <p class="c-slick__content">※終了いたしました　～計量記念日にちなんで～　生き...</p>
+              <div class="c-slick__eventReportSP">イベントレポート</div>
+            </a></li>
+          </ul>
+      </section>
+
+      <!-- ブログ海遊館日記 -->
+      <section>
+        <div class="p-blog">
+          <div class="p-title">
+            <img class="p-titleImg__small" src="./assets/icon/main/book.png" alt="#">
+            <h2 class="p-title__normal">ブログ海遊館日記</h2>
+            <p>Blog</p>
+          </div>
+
+          <ul class="c-slick__others">
+            <li><a>
+              <img src="./assets/img/blog/blog1.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2023/05/05</p>
+                <div class="c-slick__diary">海獣チームの日記</div>
+              </div>
+              <p class="c-slick__content">こんにちは、以布利センターです。以布利ではツバメが飛んでいたり、ツツジの花が満開...</p>
+              <div class="c-slick__centerSP">以布利センター</div>
+            </a></li>
+
+            <li><a>
+              <img src="./assets/img/blog/blog2.jpg" alt="">
+              <div class="c-slick__dateCover">
+                <p class="c-slick__date">2023/05/22</p>
+                <div class="c-slick__diary">海獣チームの日記</div>
+              </div>
+              <p class="c-slick__content">海遊館の「グレート・バリア・リーフ」水槽は、海遊館のオープンから33年経過しまし...</p>
+              <div class="c-slick__diarySP">海獣チームの日記</div>
+            </a></li>
+
+              <li><a>
+                <img src="./assets/img/blog/blog3.jpg" alt="">
+                <div class="c-slick__dateCover">
+                  <p class="c-slick__date">2023/05/16</p>
+                  <div class="c-slick__recruit">参加者募集</div>
+                </div>
+                <p class="c-slick__content">アカハナグマ「トマト」の今のブームを紹介したいと思います↓↓トマトは、現在バック...</p>
+                <div class="c-slick__diarySP">海獣チームの日記</div>
+              </a></li>
+
+              <li><a>
+                <img src="./assets/img/blog/blog4.jpg" alt="">
+                <div class="c-slick__dateCover">
+                  <p class="c-slick__date">2023/05/15</p>
+                  <div class="c-slick__recruit">参加者募集</div>
+                </div>
+                <p class="c-slick__content">「エクアドル熱帯雨林」水槽に暮らしている、ピラルクのお食事シーンをご紹介します。...</p>
+                <div class="c-slick__diarySP">海獣チームの日記</div>
+              </a></li>
+
+              <li><a>
+                <img src="./assets/img/blog/blog5.jpg" alt="">
+                <div class="c-slick__dateCover">
+                  <p class="c-slick__date">2023/05/14</p>
+                  <div class="c-slick__recruit">参加者募集</div>
+                </div>
+                <p class="c-slick__content">「太平洋」水槽の、イトマキエイがいる場所で黄色い魚の群れがみられます。「太平洋」...</p>
+                <div class="c-slick__diarySP">海獣チームの日記</div>
+              </a></li>
+
+              <li><a>
+                <img src="./assets/img/blog/blog6.jpg" alt="">
+                <div class="c-slick__dateCover">
+                  <p class="c-slick__date">2023/05/13</p>
+                  <div class="c-slick__recruit">参加者募集</div>
+                </div>
+                <p class="c-slick__content">ここ数年、「日本の森」中央の擬木まわりに、つる植物のテイカカズラを展示しています...</p>
+                <div class="c-slick__diarySP">海獣チームの日記</div>
+              </a></li>
+
+              <li><a>
+                <img src="./assets/img/blog/blog7.jpg" alt="">
+                <div class="c-slick__dateCover">
+                  <p class="c-slick__date">2023/05/12</p>
+                  <div class="c-slick__recruit">参加者募集</div>
+                </div>
+                <p class="c-slick__content">突然ですが、こちら。一体何の写真でしょうか？ツルツルしたところがあったり、毛のよ...</p>
+                <div class="c-slick__diarySP">海獣チームの日記</div>
+              </a></li>
+
+              <li><a>
+                <img src="./assets/img/blog/blog8.jpg" alt="">
+                <div class="c-slick__dateCover">
+                  <p class="c-slick__date">2023/05/07</p>
+                  <div class="c-slick__recruit">参加者募集</div>
+                </div>
+                <p class="c-slick__content">以布利センターでは、毎朝近くの港の水揚げを確認しに行きます。マアジやマサバ(下1...</p>
+                <div class="c-slick__centerSP">以布利センター</div>
+              </a></li>
+
+              <li><a>
+                <img src="./assets/img/blog/blog9.jpg" alt="">
+                <div class="c-slick__dateCover">
+                  <p class="c-slick__date">2023/05/06</p>
+                  <div class="c-slick__recruit">参加者募集</div>
+                </div>
+                <p class="c-slick__content">先日タカアシガニの繁殖のお話をしました。（→「タカアシガニがアツい！」）今回はそ...</p>
+                <div class="c-slick__diarySP">海獣チームの日記</div>
+              </a></li>
+
+              <li><a>
+                <img src="./assets/img/blog/blog10.jpg" alt="">
+                <div class="c-slick__dateCover">
+                  <p class="c-slick__date">2023/05/05</p>
+                  <div class="c-slick__recruit">参加者募集</div>
+                </div>
+                <p class="c-slick__content">こんにちは、以布利センターです。以布利ではツバメが飛んでいたり、ツツジの花が満開...</p>
+                <div class="c-slick__centerSP">以布利センター</div>
+              </a></li>
+          </ul>
+
+      </section>
+
+      <!-- 公式SNS -->
+      <section class="p-officialSNS">
+        <div class="p-title">
+          <img class="p-titleImg__small" src="./assets/icon/main/play.png" alt="#">
+          <h2 class="p-title__normal">公式SNS</h2>
+          <p>Official SNS</p>
+        </div>
+        <div class="p-officialSNS__iconContainer">
+          <a href="#" target="_blank"><img src="./assets/icon/sns/youtube.png" alt="#" class="p-officialSNS__icon"></a>
+          <a href="#" target="_blank"><img src="./assets/icon/sns/facebook.png" alt="#" class="p-officialSNS__icon"></a>
+          <a href="#" target="_blank"><img src="./assets/icon/sns/twitter.png" alt="#" class="p-officialSNS__icon"></a>
+          <a href="#" target="_blank"><img src="./assets/icon/sns/instagram.png" alt="#" class="p-officialSNS__icon"></a>
+          <a href="#" target="_blank"><img src="./assets/icon/sns/line.png" alt="#" class="p-officialSNS__icon"></a>
+        </div>
+
+        <div class="p-youtube">
+          <div class="p-youtube__container
+          ">
+          <iframe src="https://www.youtube-nocookie.com/embed/TTerT9pAkJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          
+          </div>
+        </div>
+        
+      </section>
+
+        <!--その他-->
+      <section class="p-others">
+        <ul>
+          <li>
+            <a href="#" target="_blank">
+              <strong class="p-others__title">海遊館の周辺<br>総合レジャースポット</strong>
+              <img src="./assets/icon/others/information.png" alt="" class="p-others__img">
+              <p>天保山<br>ハーバービレッジ<br>総合案内</p>
+            </a>
+            <img src="assets/icon/others/link.png" alt="" class="p-others__link">
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <strong class="p-others__title">海に面した<br>複合ショッピングモール</strong>
+              <img src="./assets/icon/others/wave.png" alt="" class="p-others__img">
+              <p>天保山<br>マーケットプレース</p>
+            </a>
+            <img src="assets/icon/others/link.png" alt="" class="p-others__link">
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <strong class="p-others__title">世界最大級の大観覧車</strong>
+              <img src="./assets/icon/others/ferrisWheel.png" alt="" class="p-others__img">
+              <p>天保山大観覧車</p>
+            </a>
+            <img src="assets/icon/others/link.png" alt="" class="p-others__link">
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <strong class="p-others__title">レゴ®の世界を体験</strong>
+              <img src="./assets/icon/others/star.png" alt="" class="p-others__img">
+              <p>レゴランド®<br>ディスカバリー・<br>センター大阪</p>
+            </a>
+            <img src="assets/icon/others/link.png" alt="" class="p-others__link">
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <strong class="p-others__title">関西名物グルメの<br>フードテーマパーク</strong>
+              <img src="./assets/icon/others/restaurant.png" alt="" class="p-others__img">
+              <p>なにわ<br>食いしんぼ横丁</p>
+            </a>
+            <img src="assets/icon/others/link.png" alt="" class="p-others__link">
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <strong class="p-others__title">大阪湾クルーズ</strong>
+              <img src="./assets/icon/others/ship.png" alt="" class="p-others__img">
+              <p>帆船型観光船<br>サンタマリア</p>
+            </a>
+            <img src="assets/icon/others/link.png" alt="" class="p-others__link">
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <strong class="p-others__title">全室オーシャンビューの<br>リゾートホテル</strong>
+              <img src="./assets/icon/others/building.png" alt="" class="p-others__img">
+              <p>ホテルシーガル<br>てんぽーざん大阪</p>
+            </a>
+            <img src="assets/icon/others/link.png" alt="" class="p-others__link">
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+              <strong class="p-others__title">海遊館⇔USJシャトル船</strong>
+              <img src="./assets/icon/others/ferry.png" alt="" class="p-others__img">
+              <p>キャプテンライン</p>
+            </a>
+            <img src="assets/icon/others/link.png" alt="" class="p-others__link">
+          </li>
+
+          <div class="c-sitemap">
+            <p>サイトマップ</p>
+            <img src="./assets/icon/news-list-ico.png" alt="">
+          </div>
+        </ul><!--p-others__container-->
+      </section>
+
+      <!-- <div class="c-sitemap__spCover">
+        <div class="c-sitemap__sp">
+          <p>サイトマップ</p>
+        </div>
+      </div> -->
+
+      <!-- サイトマップ -->
+      <section class="p-sitemap">
+        <div class="c-sitemap__sp">
+          <p>サイトマップ</p>
+          <p>
+          <img src="assets/icon/footer/sitemap-open.png" alt="">
+          </p>
+        </div>
+        
+        <div class="p-sitemap__container">
+
+          <ul class="p-sitemap__list">
+            <p><a>時間・料金・アクセス</a></p>
+            <li><a>営業時間・休館日</a></li>
+            <li>
+              <ul>
+                <li><a>交通アクセス・駐車場</a></li>
+                <li><a>-電車・バス・USJシャトル船</a></li>
+                <li><a>-車・駐車場</a></li>
+              </ul>
+            </li>
+            <li><a>入館料・その他チケット</a></li>
+            <li>
+              <ul>
+                <li><a>団体のお客様</a></li>
+                <li><a>-一般団体のご案内</a></li>
+                <li><a>-学校団体のご案内</a></li>
+                <li><a>-団体予約できる<br> レストラン</a></li>
+              </ul>
+            </li>
+              <li><a>意外と知らない!?<br>ゆったり楽しむためのヒント</a></li>
+          </ul>
+
+          <ul class="p-sitemap__list">
+            <p><a>展示・館内紹介</a></p>
+            <ul>
+              <li><a>常設展示</a></li>
+              <li><a>-ジンベエザメのヒミツ</a></li>
+              <li><a>-イトマキエイのヒミツ</a></li>
+              <li><a>-マンボウの秘密</a></li>
+            </ul>
+            <li><a>新体感エリア</a></li>
+            <li><a>企画展&トピックス</a></li>
+            <li><a>海遊館のコンセプト</a></li>
+            <ul>
+              <li><a>館内情報</a></li>
+              <li><a>-館内マップ</a></li>
+              <li><a>-ショップ&カフェ</a></li>
+              <li><a>-バリアフリー</a></li>
+              <li><a>-乳幼児をお連れの方へ</a></li>
+              <li><a>-ルールとマナー</a></li>
+              <li><a>-よくあるご質問</a></li>
+            </ul>
+          </ul>
+
+          <ul class="p-sitemap__list">
+            <p><a>イベント・楽しみ方</a></p>
+            <li><a>ガイドツアー</a></li>
+            <li><a>生きものたちのお食事タイム</a></li>
+            <li><a>夜の海遊館</a></li>
+            <li><a>ニンテンドーDS®・<br>音声ガイド</a></li>
+            <li><a>海遊館探検隊<br>[すたんぷノート]</a></li>
+            <li><a>おとまりスクール&ナイトツアー</a></li>
+            <li><a>大阪湾スナメリ・生物調査</a></li>
+            <li><a>過去に実施したスクール</a></li>
+          </ul>
+
+          <ul class="p-sitemap__list"></ul>
+
+          <ul class="p-sitemap__list">
+            <p><a>海遊館とつながる</a></p>
+            <li><a>ブログ「海遊館日記」</a></li>
+            <ul>
+              <li><a>海遊館ラボ-調査・研究-</a></li>
+              <li><a>-海遊館の研究詳細</a></li>
+              <li><a>-海遊館の大阪湾スナメリ調査</a></li>
+              <li><a>-機関誌「かいゆう」</a></li>
+              <li><a>-大阪海遊館<br>海洋生物研究所以布利センター</a></li>
+            </ul>
+            <li><a>海遊館 生きものサロン</a></li>
+            <li><a>海遊館公式SNS</a></li>
+            <li><a>海遊館ニュース一覧</a></li>
+            <li><a>海遊館ヒストリー</a><img src="./assets/icon/link.png" alt="#"></li>
+          </ul>
+
+          <ul class="p-sitemap__list">
+            <p><a>エリア関連情報</a></p>
+            <li><a>天保山ハーバービレッジ<br>総合案内</a></li>
+            <li><a>天保山マーケットプレース<img src="./assets/icon/link.png" alt="#"></a></li>
+            <li><a>なにわ食いしんぼ横丁<img src="./assets/icon/link.png" alt="#"></a></li>
+            <li><a>海遊館プロデュース<br>ニフレル<img src="./assets/icon/link.png" alt="#"></a></li>
+            <li><a>レゴランド®・ディスカバリー・<br>センター大阪<img src="./assets/icon/link.png" alt="#"></a></li>
+
+            <!-- <p><a></a></p> -->
+            <li><a>天保山大観覧車<img src="./assets/icon/link.png" alt="#"></a></li>
+            <li><a>観光船サンタマリア<img src="./assets/icon/link.png" alt="#"></a></li>
+            <!-- <li><a>ホテルシーガル<br>てんぽーざん大阪<img src="./assets/icon/link.png" alt="#"></a></li> -->
+            <li><a>キャプテンライン</a></li>
+            <!-- <li><a>大阪文化館・天保山<img src="./assets/icon/link.png" alt="#"></a></li> -->
+          </ul>
+
+          <ul class="p-sitemap__list">
+            <p><a>エリア関連情報</a></p>
+            <li><a>天保山ハーバービレッジ<br>総合案内</a></li>
+            <li><a>天保山マーケットプレース<img src="./assets/icon/link.png" alt="#"></a></li>
+            <li><a>なにわ食いしんぼ横丁<img src="./assets/icon/link.png" alt="#"></a></li>
+            <li><a>海遊館プロデュース<br>ニフレル<img src="./assets/icon/link.png" alt="#"></a></li>
+            <li><a>レゴランド®・ディスカバリー・<br>センター大阪<img src="./assets/icon/link.png" alt="#"></a></li>
+
+            <!-- <p><a></a></p> -->
+            <li><a>天保山大観覧車<img src="./assets/icon/link.png" alt="#"></a></li>
+            <li><a>観光船サンタマリア<img src="./assets/icon/link.png" alt="#"></a></li>
+            <!-- <li><a>ホテルシーガル<br>てんぽーざん大阪<img src="./assets/icon/link.png" alt="#"></a></li> -->
+            <li><a>キャプテンライン</a></li>
+            <!-- <li><a>大阪文化館・天保山<img src="./assets/icon/link.png" alt="#"></a></li> -->
+          </ul>
+
+          <ul class="p-sitemap__contact">
+            <p><a>お問い合わせ<img src="./assets/icon/link.png" alt="#"></a></p>
+            <p><a>会社概要</a></p>
+            <p><a>安心・安全への取り組み</a></p>
+            <p><a>プライバシーポリシー</a></p>
+            <p><a>採用情報</a></p>
+            <p><a>プレスリリース</a></p>
+            <p><a>サイトマップ</a></p>
+          </ul>
+
+          <ul class="p-sitemap__contactSP">
+            <p><a>お問い合わせ<img src="./assets/icon/link.png" alt="#"></a></p>
+            <p><a>安心・安全への取り組み</a></p>
+            <p><a>採用情報</a></p>
+            <p><a>サイトマップ</a></p>
+          </ul>
+
+          <ul class="p-sitemap__contactSP">
+            <p><a>会社概要</a></p>
+            <p><a>プライバシーポリシー</a></p>
+            <p><a>プレスリリース</a></p>
+          </ul>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="l-footer">
+      <div class="l-footer__container">
+        <!--SNSアイコン-->
+        <ul class="p-footer__sns">
+          <li><a><img src="./assets/icon/footer/facebook2.png" class="p-footer__img"></a></li>
+          <li><a><img src="./assets/icon/footer/twitter2.png" class="p-footer__img"></a></li>
+        </ul>
+
+        <ul class="p-footer__nav">
+            <li><a href="#" target="_blank">会社概要</a></li>
+            <li><a href="#" target="_blank">安心・安全への取り組み</a></li>
+            <li><a href="#" target="_blank">プライバシーポリシー</a></li>
+            <li><a href="#" target="_blank">採用情報</a></li>
+            <li><a href="#" target="_blank">プレスリリース</a></li>
+            <li><a href="#" target="_blank">サイトマップ</a></li>
+        </ul><!-- p-footer__container -->
+
+        <small class="l-small">&copy; Osaka Aquarium Kaiyukan. All Rights Reserved.</small>
+      </div><!--l-footer__container--->
+    </footer>
+</div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/javaScript/dropDown.js"></script>
+    <script src="./assets/javaScript/hamburger.js"></script>
+    <script src="./assets/javaScript/scrollTop.js"></script>
+    <script src="./assets/javaScript/sitemap.js"></script>
+
+    <!-- スライダー -->
+    <script>
+      // スライダー　メイン
+      $(function(){
+        $(".slider").slick({
+          arrows: true, /*左右の矢印*/
+          dots: true, /*下部の何枚目かを表すドット*/
+          autoplay: true, /*自動再生*/
+          autoplaySpeed: 3000,   // 自動スライド切り替え速度
+          speed: 1500,   // 画像切り替えにかかる時間（ミリ秒）
+          infinite: true, /*スライドのループ　最後のスライドの次に１枚目に戻すか(最後→１枚目に戻る)*/
+          fade: true,
+          slidesToShow: 1, /*１度に表示するスライド数*/
+          slidesToScroll: 1, /*１回で何枚分スクロールさせるか*/
+        });
+      });
+
+      // スライダーピックアップ
+      $(function(){
+        $(".c-slick__others").slick({
+          centerMode: true,
+          centerPadding: "15px",
+          infinite: true, /*スライドのループ　最後のスライドの次に１枚目に戻すか(最後→１枚目に戻る)*/
+          slidesToShow: 3, /*１度に表示するスライド数*/
+          slidesToScroll: 1, /*１回で何枚分スクロールさせるか*/
+          
+          responsive: [{
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true
+            }}]
+        });
+      });
+    </script>
+  </body>
+</html>
+  <!-- </body> -->

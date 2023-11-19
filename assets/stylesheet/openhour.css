@@ -1,0 +1,252 @@
+/* openHour */
+/* PC style */
+@media screen and (min-width: 769px) {
+.p-openhourSP{
+  display: none;
+}
+
+.p-openhour{
+  position: absolute;
+  right: 5.5%;
+  bottom: -4%;
+  /* width: 15%;*/
+  width: 210px;
+  /* height: 180px; */
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.p-openhour li{
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #5471ad;
+}
+
+.p-openhour li:last-child{
+  margin-bottom: 0;
+}
+
+.p-openhour a{
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.p-openhour__title img{
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.p-openhour__title{
+  border-bottom: 1px solid #5471ad;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.p-openhour__time{
+  font-size: 23px;
+}
+
+.p-openhour__guide{
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.p-openhour__buttonPink{
+  position: relative;
+  padding: 10px;
+  background-color: #fea8a8;
+  /* color: white; */
+}
+
+.p-openhour__button{
+  /* position: relative; */
+  padding: 10px;
+  background-color: #5471ad;
+}
+
+.p-openhour__button:hover{
+  opacity: 0.7;
+}
+
+.p-openhour__button a{
+  position: relative;
+  color: white;
+  font-size: 10px;
+}
+
+.p-openhour__buttonPink a{
+  position: relative;
+  color: white;
+  font-size: 10px;
+}
+
+.p-openhour__button a > img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-left: 10px;
+  width: 12px;
+  height: 12px;
+  transform: rotate(-90deg);
+}
+
+.p-openhour__buttonPink a > img{
+  position: absolute;
+  top: 10px;
+  right: 0;
+  margin-left: 10px;
+  width: 12px;
+  height: 12px;
+  transform: rotate(-90deg);
+}
+
+/* .p-openhour__button::after{
+background-color: white;
+color: #5471ad;
+content: "→";
+position: absolute;
+top: 30%;
+right: 10px;
+border-radius: 50%;
+font-weight: bold 3px;
+} */
+
+}
+
+/* SP style */
+@media screen and (max-width: 768px){
+  .p-openhour{
+    display: none;
+  }
+
+  .p-openhourSP{
+    padding: 3%;
+    background-color: #dfe0e0;
+  }
+
+  .p-openhourSP__cover{
+    position: relative;
+    padding: 3.1vw;
+    margin-top: -25vw;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .p-openhourSP__cover div{
+    padding: 3.2vw;
+    padding-left: 11vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+  
+  .p-openhourSP li{
+    /* font-size: 26px; */
+    font-weight: bold;
+    color: #5471ad;
+  }
+  
+  .p-openhourSP li:last-child{
+    margin-bottom: 0;
+  }
+  
+  .p-openhourSP a{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .p-openhourSP__title img{
+    width: 6.25vw;
+    height: 6.25vw;
+    margin-right: 5px;
+    position: absolute;
+    left: 10px;
+  }
+  
+  .p-openhourSP__title{
+    padding: 5px;
+  }
+  
+  .p-openhourSP__time{
+    font-size: 25px;
+  }
+  
+  .p-openhourSP__guide{
+    font-size: 2.4vw;
+    font-weight: normal;
+    margin-top: 0.5em;
+  }
+
+  .p-openhourSP__buttonPink{
+    position: relative;
+    padding: 4.6vw 0.5em;
+    margin-top: 10px;
+    background-color: #fea8a8;
+    color:inherit;
+    text-align: center;
+  }
+  
+  .p-openhourSP__button{
+    position: relative;
+    padding: 4.6vw 0.5em;
+    margin-top: 10px;
+    background-color: #5471ad;
+    text-align: center;
+  }
+
+  .p-openhourSP__button:hover{
+    opacity: 0.7;
+  }
+  
+  /* .p-openhourSP__button::after{
+    background-color: white;
+    color: #5471ad;
+    content: "→";
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    border-radius: 50%;
+    font-size: 3.3vw;
+    font-weight: bold ;
+  } */
+  
+  .p-openhourSP__button a{
+    color: white;
+    font-size: 3.3vw;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .p-openhourSP__buttonPink a{
+    color: white;
+    font-size: 3.3vw;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .p-openhourSP__buttonPink a > img{
+    position: absolute;
+    right: 15px;
+    bottom: 40%;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-90deg);
+  }
+
+  .p-openhourSP__button a > img{
+    position: absolute;
+    right: 15px;
+    bottom: 40%;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-90deg);
+  }
+}
