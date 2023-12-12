@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 2;
+  z-index: 4;
 }
 
 /* left */
@@ -334,7 +334,7 @@
 /* 時間・料金・アクセス */
 .p-time{
   padding: 7vw 0;
-  background-image: url("C:/Users/msrdi/OneDrive/ドキュメント/Portfolio1/assets/img/time.jpg");
+  background-image: url("../img/time.jpg");
   background-position: center;
   background-size: cover;
   align-items: center;
@@ -344,7 +344,7 @@
 /* 常設展示 */
 .p-exhibition{
   padding: 130px 0px;
-  background-image: url("C:/Users/msrdi/OneDrive/ドキュメント/Portfolio1/assets/img/exibition.jpg");
+  background-image: url("../img/exibition.jpg");
   position: relative;     
   background-position: center;
   background-repeat: no-repeat;
@@ -431,7 +431,7 @@
 /* 展示・館内紹介 */
 .p-exhibition{
   padding: 7vw 0;
-  background-image: url("C:/Users/msrdi/OneDrive/ドキュメント/Portfolio1/assets/img/exibition.jpg");
+  background-image: url("../img/exibition.jpg");
   position: relative;     
   background-position: center;
   background-repeat: no-repeat;
@@ -499,7 +499,7 @@ font-size: 3.5vw;
 /* 公式SNS */
 .p-officialSNS{
   padding: 10% 0 0%;
-  background-image: url("C:/Users/msrdi/OneDrive/ドキュメント/Portfolio1/assets/img/fishSchool.jpg");
+  background-image: url("../img/fishSchool.jpg");
   position: relative;     
   background-position: center;
   justify-content: center;
@@ -624,22 +624,38 @@ font-size: 3.5vw;
 /* sitemap */
 .p-sitemap{
   background-color: #5d7dbf;
-  padding: 5% 5% 0;
+  padding: 5%;
   color: white;
 }
 
-.p-sitemap__container{
+.p-sitemap__title{
+  position: absolute;
+  font-weight: bold;
+  line-height: 1.4;
+  font-size: 12px;
+}
+
+.p-sitemap__cover{
+  position: relative;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 3%;
+  padding: 6% 0;
+}
+
+.p-sitemap__container{
+  display: none;
 }
 
 .p-sitemap__list{
   /* display: none; */
   text-align: left;
-  width: 50%;
-  margin-top: 50px;
+  width: 47%;
+  margin: 15% 3% 0 0;
+}
+
+.p-sitemap__listPC{
+  display: none;
 }
 
 .p-sitemap__list > li{
@@ -653,6 +669,8 @@ font-size: 3.5vw;
 
 .p-sitemap__list a{
   cursor: pointer;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .p-sitemap__list a:hover{

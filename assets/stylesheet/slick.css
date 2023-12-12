@@ -44,8 +44,8 @@
 .slick-dots li button {
   color: none;
   outline: none;
-  width: 8px; /*ドットボタンのサイズ*/
-  height: 8px; /*ドットボタンのサイズ*/
+  width: 5px; /*ドットボタンのサイズ*/
+  height: 5px; /*ドットボタンのサイズ*/
   display: block;
   border-radius: 50%;
   background: #fff; /*ドットボタンの色*/
@@ -130,10 +130,10 @@
 /*ドットナビゲーションの設定*/
 .slick-dots {
   position: absolute;
-  z-index: 3;
+  z-index: 2;
   text-align: left;
   left: 1%;
-  bottom: 2%;
+  bottom: 3%;
 }
 }
 

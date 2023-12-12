@@ -116,6 +116,7 @@ header,main,footer{
   right: -30%;
   padding: 7.5% 7.5% 11.3%;
   overflow-x: hidden;
+  transition: transform .3s; /* 表示の変化をアニメーション化 */
 }
 
 /* .p-hamburger__container{

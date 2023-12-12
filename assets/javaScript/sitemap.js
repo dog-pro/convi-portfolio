@@ -6,7 +6,8 @@ $(function(){
 
 $(function(){
   $('.c-sitemap__sp').click(function(){
-    $('.p-sitemap__list').slideToggle(250);
+    // $('.p-sitemap__list').slideToggle(250);
+    $('.p-sitemap__container').slideToggle(250);
     $('.p-sitemap__contactSP').slideToggle(250);
   });
 });

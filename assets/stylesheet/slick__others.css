@@ -20,6 +20,19 @@
 }
 
 /* 左右の矢印 */
+.c-slick__pickup >.slick-prev,
+.c-slick__pickup > .slick-next {
+  position: absolute;
+  z-index: 1;
+  top: 42%;
+  cursor: pointer; /*マウスカーソルを指マークに*/
+  outline: none; /*クリックをしたら出てくる枠線を消す*/
+  border-top: 5px solid #5d7dbf; /*矢印の色*/
+  border-right: 5px solid #5d7dbf; /*矢印の色*/
+  height: 20px;
+  width: 20px;
+}
+
 .c-slick__others >.slick-prev,
 .c-slick__others > .slick-next {
   position: absolute;
@@ -40,13 +53,12 @@
     background-color: #e0f1fc;
     padding-top: 3%;
   }
-  
+
   .p-blog{
     background-color: #e0f1fc;
     padding: 3% 0 4%;
   }
-  
-  .c-slick__others{
+    .c-slick__others{
     max-width: 830px;
     display: flex;
     margin: 0 auto;
@@ -73,14 +85,9 @@
   }
 
   .c-slick__others img{
-    width: 280px;
     height: 150px;
-  }
-
-  .c-slick__pickup{
-    width: 280px;
-    height: 125px;
-    border-radius: 3px;
+    margin-bottom: 2%;
+    /* border-radius: 4%; */
   }
 
   .c-slick__others p{
@@ -222,6 +229,19 @@
 
 .c-slick__diarySP{
   display: none;
+}
+
+.c-slick__pickup > .slick-prev {
+  /*戻る矢印の位置と形状*/
+  top: 50%;
+  left: -5%;
+  transform: rotate(-135deg);
+}
+.c-slick__pickup > .slick-next {
+  /*次へ矢印の位置と形状*/
+  top: 50%;
+  right: -5%;
+  transform: rotate(45deg);
 }
 
 .c-slick__others > .slick-prev {
@@ -391,6 +411,7 @@
   .slick-track{
     width: 100%;
 }
+
 
 .c-slick__others > .slick-prev {
   /*戻る矢印の位置と形状*/
