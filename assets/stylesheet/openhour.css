@@ -147,6 +147,7 @@ font-weight: bold 3px;
   
   .p-openhourSP li{
     /* font-size: 26px; */
+    font-size: 130%;
     font-weight: bold;
     color: #5471ad;
   }

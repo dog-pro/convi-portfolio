@@ -7,6 +7,7 @@
   }
 
 /* header */
+
 /* nav */
 
   .p-nav_pc{
@@ -32,12 +33,12 @@
 }
 
 .p-nav__leftLanguage{
-  width: 12vw;
+  width: 10vw;
 }
 
 .p-nav__leftShare{
   margin-left: 5%;
-  width: 12vw;
+  width: 10vw;
 }
 
 /* middle */
@@ -738,10 +739,10 @@ font-size: 3.5vw;
   
 .c-sitemap__sp{
   width: 70%;
-  height: 30px;
+  height: 35px;
   text-align: right;
   margin: 0 auto;
-  padding: 7px 50px;
+  padding: 1% 13%;
   align-items: center;
   background-color: #fea8a8;
   color: #fff;
@@ -767,6 +768,11 @@ left: 120px; */
   width: 20px;
   height: 20px;
 }
+
+.c-sitemap__show{
+  display: none;
+  padding: none;
+  }
 
 /* .c-sitemap__sp p::after{
   background-color: white;

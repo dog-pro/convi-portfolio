@@ -24,7 +24,9 @@ body{
 .p-nav_pc{
   min-width: 1174px;
   height: 60px;
-  padding: 0.5%;
+  /* height: 6%; */
+  /* padding: 0.5% 1.5%; */
+  padding: 0.5% 1.5% 0.5% 0.5%;
   position: fixed;
   background-color: white;
   display: flex;
@@ -49,7 +51,7 @@ body{
 }
 
 .p-nav__left img{
-  width: 4.5vw;
+  width: 75%;
   height: 2.3vh;
   margin-left: 3%;
 }
@@ -637,6 +639,9 @@ body{
 }
 
 /* sitemap */
+  /* .addclass{
+} */
+
 .c-sitemap{
   display: flex;
   /* position: absolute;
@@ -654,7 +659,7 @@ body{
   align-items: center;
 }
 
-.c-sitemap img{
+.c-sitemap__img{
   position: absolute;
   top: 26%;
   right: 3%;
@@ -662,16 +667,9 @@ body{
   transform: rotate(90deg);
 }
 
-/* .c-sitemap::after{
-  background-color: white;
-  color: #fea8a8;
-  content: "↓";
-  position: absolute;
-  top: 95%;
-  right: 88.7%;
-  border-radius: 50%;
-  font-weight: bold 3px;
-} */
+.c-sitemap__show{
+display: none;
+}
 
 .c-sitemap p{
 display: block;
@@ -696,12 +694,17 @@ font-size: 12px;
   position: relative;
 }
 
+.p-sitemap__cover{
+  width: 100%;
+  display: contents;
+}
+
 .p-sitemap__title{
   position: absolute;
   top: 0;
   left: 0;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .p-sitemap__list{
@@ -726,13 +729,18 @@ font-size: 12px;
 
 .p-sitemap__cover ul{
   text-align: left;
-  width: 25%;
-  margin-top: 50px;
+  /* width: 25%; */
+  /* margin-top: 50px; */
 }
 
 
+.p-sitemap__cover ul > li{
+  /* line-height: 1.5; */
+}
+
 .p-sitemap__list > li{
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin: 20px 0px;
   font-size: 14px;
 }
 
@@ -830,7 +838,7 @@ font-size: 12px;
   font-weight: bold;
   line-height: 1.4;
   font-size: 14px;
-  margin-bottom: 22px;
+  margin-bottom: 15px;
 }
 
 .p-sitemap__contact img{

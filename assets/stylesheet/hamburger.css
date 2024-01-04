@@ -18,7 +18,7 @@
 .p-hamburger__button span {
   position: absolute;
   display: block;
-  width: 30px;
+  width: 30%;
   height: 5px;
   right: -25%;
   bottom: 10%;
@@ -67,6 +67,7 @@ header,main,footer{
   position: fixed;
   left: -50%;
   top: 0;
+  transition: transform .3s;
 /* transform: translateX(-450px); */
 /*クリックしたら左に
   移動*/
@@ -103,7 +104,7 @@ header,main,footer{
   /*メニューが多くなったらスクロールできるように*/
   /* transform: translateX(100%); */
   overflow-y: auto;
-  /* z-index: -10; */
+  z-index: -10;
   background-color: #5d7dbf;
   opacity: 0;
 }
@@ -116,7 +117,8 @@ header,main,footer{
   right: -30%;
   padding: 7.5% 7.5% 11.3%;
   overflow-x: hidden;
-  transition: transform .3s; /* 表示の変化をアニメーション化 */
+  /* 表示の変化をアニメーション化 */
+  transition: transform .16s;
 }
 
 /* .p-hamburger__container{
