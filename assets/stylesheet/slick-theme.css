@@ -204,3 +204,20 @@
 .slick-track{
     width: 100%;
 }
+
+/* SP style */
+@media screen and (max-width: 640px){
+    .slick-dots li{
+    position: relative;
+
+    display: inline-block;
+
+    /* width: 15px; */
+    width: 8%;
+    height: 15px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+}

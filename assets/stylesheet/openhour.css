@@ -1,17 +1,19 @@
 /* openHour */
 /* PC style */
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) { */
+@media screen and (min-width: 641px) {
 .p-openhourSP{
   display: none;
 }
 
 .p-openhour{
   position: absolute;
-  right: 5.5%;
-  bottom: -4%;
-  /* width: 15%;*/
-  width: 210px;
-  /* height: 180px; */
+  right: 3.5%;
+  bottom: 3.5%;
+
+  /* width: 210px; */
+  width: 190px;
+
   padding: 10px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.7);
@@ -19,7 +21,7 @@
 
 .p-openhour li{
   margin-bottom: 10px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
   color: #5471ad;
 }
@@ -51,7 +53,7 @@
 }
 
 .p-openhour__guide{
-  font-size: 10px;
+  font-size: 12px;
   font-weight: normal;
 }
 
@@ -75,13 +77,13 @@
 .p-openhour__button a{
   position: relative;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .p-openhour__buttonPink a{
   position: relative;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .p-openhour__button a > img{
@@ -96,7 +98,8 @@
 
 .p-openhour__buttonPink a > img{
   position: absolute;
-  top: 10px;
+  /* top: 10px; */
+  top: 45%;
   right: 0;
   margin-left: 10px;
   width: 12px;
@@ -118,7 +121,8 @@ font-weight: bold 3px;
 }
 
 /* SP style */
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){ */
+  @media screen and (max-width: 640px){
   .p-openhour{
     display: none;
   }
@@ -131,7 +135,8 @@ font-weight: bold 3px;
   .p-openhourSP__cover{
     position: relative;
     padding: 3.1vw;
-    margin-top: -25vw;
+    /* margin-top: -25vw; */
+    margin-top: -25%;
     background-color: rgba(255, 255, 255, 0.7);
   }
 
@@ -146,10 +151,8 @@ font-weight: bold 3px;
   }
   
   .p-openhourSP li{
-    /* font-size: 26px; */
-    font-size: 130%;
     font-weight: bold;
-    color: #5471ad;
+    color: #5d7dbf;
   }
   
   .p-openhourSP li:last-child{
@@ -161,6 +164,10 @@ font-weight: bold 3px;
     text-decoration: none;
     cursor: pointer;
   }
+
+  .p-openhourSP__title{
+    padding: 5px;
+  }
   
   .p-openhourSP__title img{
     width: 6.25vw;
@@ -169,17 +176,19 @@ font-weight: bold 3px;
     position: absolute;
     left: 10px;
   }
-  
-  .p-openhourSP__title{
-    padding: 5px;
+
+  .p-openhourSP__title > strong{
+    font-size: 4vw;
   }
   
   .p-openhourSP__time{
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 5vw;
   }
   
   .p-openhourSP__guide{
-    font-size: 2.4vw;
+    font-size: 2.7vw;
+    /* font-size: 12px; */
     font-weight: normal;
     margin-top: 0.5em;
   }
@@ -193,11 +202,11 @@ font-weight: bold 3px;
     text-align: center;
   }
 
-  .p-openhourSP__buttonPink p{
+  /* .p-openhourSP__buttonPink p{
     line-height: 1.4;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     font-size: 90%;
-  }
+  } */
   
   .p-openhourSP__button{
     position: relative;
@@ -205,6 +214,18 @@ font-weight: bold 3px;
     margin-top: 10px;
     background-color: #5471ad;
     text-align: center;
+  }
+
+  /* .p-openhourSP__button p{
+    line-height: 1.4;
+    letter-spacing: 0.2em;
+    font-size: 60%;
+  } */
+
+  .p-openhourSP__buttonTitle{
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    font-size: 3.5vw;
   }
 
   .p-openhourSP__button:hover{
@@ -225,35 +246,40 @@ font-weight: bold 3px;
   
   .p-openhourSP__button a{
     color: white;
-    font-size: 3.3vw;
+
     font-weight: bold;
     text-decoration: none;
   }
 
   .p-openhourSP__buttonPink a{
     color: white;
-    font-size: 3.3vw;
     font-weight: bold;
     text-decoration: none;
   }
 
   .p-openhourSP__buttonPink a > img{
     position: absolute;
-    right: 15px;
+    /* right: 15px; */
+    right: 7%;
     bottom: 40%;
     margin-left: 10px;
-    width: 15px;
-    height: 15px;
+    /* width: 15px; */
+    /* height: 15px; */
+    width: 4vw;
+    height: 4vw;
     transform: rotate(-90deg);
   }
 
   .p-openhourSP__button a > img{
     position: absolute;
-    right: 15px;
+    /* right: 15px; */
+    right: 7%;
     bottom: 40%;
     margin-left: 10px;
-    width: 15px;
-    height: 15px;
+    /* width: 15px; */
+    /* height: 15px; */
+    width: 4vw;
+    height: 4vw;
     transform: rotate(-90deg);
   }
 }

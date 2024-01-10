@@ -19,12 +19,12 @@ $(function() {
   });
 
   $(function(){
-    var set = $('c-scrollButton').offset().top;
+    var set = $('.c-scrollButton').offset().top;
     $(window).scroll(function(){
       if($(window).scrollTop() > set){
-      $('c-scrollButton').addClass('fixed');
+      $('.c-scrollButton').addClass('.fixed');
       } else {
-      $('c-scrollButton').removeClass('fixed');
+      $('.c-scrollButton').removeClass('.fixed');
       }
     });
   });

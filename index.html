@@ -32,8 +32,8 @@
     <title>世界最大級の水族館 海遊館</title>
   </head>
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script> -->
 
   <body>
     <div class="p-hamburger">
@@ -366,10 +366,11 @@
           <div><a><!-- Language -->
             <img class="p-nav__leftLanguage" src="./assets/icon/nav/language_sp.png">
           </a></div>
-          <div><!-- Share -->
+          <div><a><!-- Share -->
             <img class="p-nav__leftShare" src="./assets/icon/nav/share_sp.png">
-          </div>
+          </a></div>
         </div>
+
         <!-- middle -->
         <div class="p-nav__middleSP">
           <a>
@@ -494,6 +495,16 @@
       </div> -->
 
       <!-- main photo -->
+
+      <!-- <div class="slider__wrapper">
+        <ul class="slider">
+          <li><a><img src="./assets/img/main/main1.jpg" alt="#" /></a></li>
+          <li><a><img src="./assets/img/main/main2.jpg" alt="#" /></a></li>
+          <li><a><img src="./assets/img/main/main3.jpg" alt="#" /></a></li>
+          <li><a><img src="./assets/img/main/main4.jpg" alt="#" /></a></li>
+        </ul>
+      </div> -->
+
       <div class="slider__wrapper">
         <ul class="slider">
           <li><a><img src="./assets/img/main/main1.jpg" alt="#" /></a></li>
@@ -509,7 +520,7 @@
           <img src="./assets/icon/openHour.png" alt="#">本日の営業時間
         </li>
         <li>
-          <p class="p-openhour__time">10:00～20:00</p>
+          <p class="p-openhour__time">9:30～20:00</p>
           <p class="p-openhour__guide">最終入館は閉館の1時間前まで</p>
         </li>
         
@@ -544,12 +555,12 @@
               <strong>本日の営業時間</strong>
               <p class="p-openhourSP__guide">最終入館は閉館の1時間前まで</p>
             </li>
-            <li>9:30～20:00</li>
+            <li class="p-openhourSP__time">10:00～20:00</lic>
           </div>
 
           <li class="p-openhourSP__buttonPink">
             <a href="#" class="" target="_blank">
-              <p>ただ今のチケット窓口の状況<br>Current ticket counter status.
+              <p class="p-openhourSP__buttonTitle">ただ今のチケット窓口の状況<br>Current ticket counter status.
               </p>
               <img src="assets/icon/footer/sitemap-open.png" alt="">
             </a>
@@ -557,14 +568,14 @@
 
           <li class="p-openhourSP__button">
             <a href="#" class="" target="_blank">
-              <p>今月の営業時間</p>
+              <p class="p-openhourSP__buttonTitle">今月の営業時間</p>
               <img src="assets/icon/footer/sitemap-open.png" alt="">
             </a>
           </li>
 
           <li class="p-openhourSP__button">
             <a href="#" class="" target="_blank">
-              <p>海遊館eチケットの購入</p>
+              <p class="p-openhourSP__buttonTitle">海遊館eチケットの購入</p>
               <img src="assets/icon/footer/sitemap-open.png" alt="">
             </a>
           </li>
@@ -1019,7 +1030,7 @@
       <!-- 公式SNS -->
       <section class="p-officialSNS">
         <div class="p-title">
-          <img class="p-titleImg__small" src="./assets/icon/main/play.png" alt="#">
+          <img class="p-titleImg__sns" src="./assets/icon/main/play.png" alt="#">
           <h2 class="p-title__normal">公式SNS</h2>
           <p class="p-title__english">Official SNS</p>
         </div>

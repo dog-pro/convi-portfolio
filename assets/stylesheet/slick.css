@@ -4,7 +4,7 @@
 .slider{
   position: relative;
   width: 100%;
-  max-height: 900px;
+  max-height: 1000px;
   display: flex;
   visibility: hidden;
 }
@@ -26,27 +26,16 @@
 /* .slick-initializedについて */
 /* 「slick.js」の読み込み完了後、スライダーの準備ができた状態になると、スライダー要素に対して付与されるクラス名。 */
 
-/*ドットナビゲーションの設定*/
-/* .slick-dots {
-  position: absolute;
-  z-index: 3;
-  text-align: left;
-  left: 1%;
-  bottom: 2%;
-} */
-
-
 .slick-dots li {
   display: inline-block;
   margin: 0 5px;
 }
 
-
 .slick-dots li button {
   color: none;
   outline: none;
-  width: 5px; /*ドットボタンのサイズ*/
-  height: 5px; /*ドットボタンのサイズ*/
+  width: 45%; /*ドットボタンのサイズ*/
+  height: 80%; /*ドットボタンのサイズ*/
   display: block;
   border-radius: 50%;
   background: #fff; /*ドットボタンの色*/
@@ -88,15 +77,16 @@
 }
 
 /* PC style */
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) { */
+@media screen and (min-width: 641px) {
 .slick-slide img {
   display: block;
   width: 100% !important;
   height: 105vh;
   background-size: cover;
   background-position: center center;
-  margin-top: 60px;
-  object-fit: cover;
+  /* margin-top: 60px; */
+  margin-top: 5%;
 }
 
 /* 左右の矢印 */
@@ -139,24 +129,28 @@
 }
 
 /* SP style */
-@media screen and (max-width: 768px){
-
+/* @media screen and (max-width: 768px){ */
+@media screen and (max-width: 640px) {
   .slick-slide img {
     display: block;
-    width: 100% !important;
-    /* height: 400px; */
-    /* margin-top: 6%; */
-    margin-top: 50px;
+    /* width: 100% !important; */
+    width: 100%;
+    /* height: 54vh; */
+    height: 95vw;
+    margin-top: 14%;
     background-size: cover;
     background-position: center;
   }
+  
 
   /* 左右の矢印 */
 .slick-prev,
 .slick-next {
   position: absolute;
   z-index: 3;
-  top: 38%;
+  /* top: 38%; */
+  top:50%;
+  transform: translateY(-50%);
   cursor: pointer; /*マウスカーソルを指マークに*/
   outline: none; /*クリックをしたら出てくる枠線を消す*/
   border-top: 1px solid #fff; /*矢印の色*/
@@ -182,16 +176,31 @@
 
   /*ドットナビゲーションの設定*/
 .slick-dots {
-  width: 32vw;
+  /* width: 32vw; */
+  width: 80%;
   position: absolute;
   z-index: 3;
-  /* text-align: left; */
   left: 50%;
   transform: translate(-50%);
-  bottom: 24%;
+  bottom:20%;
 }
 
   .slick-track{
     width: 100%;
 }
+
+  .slick-dots li{
+    position: relative;
+
+    display: inline-block;
+
+    /* width: 15px; */
+    width: 8%;
+    height: 15px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
 }
+}
+

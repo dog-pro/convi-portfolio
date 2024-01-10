@@ -1,6 +1,7 @@
 
 /* PC style */
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) { */
+  @media screen and (min-width: 641px) {
 .p-nav__middle{
   display: flex;
   justify-content: space-around;
@@ -20,7 +21,7 @@
   list-style: none;
   color: #535354;
   cursor: pointer;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .p-nav__middle li:first-child{
@@ -63,7 +64,7 @@
   display: block;
   text-decoration: none;
   cursor: pointer;
-  font-size: 10px;
+  font-size: 12px;
   color: #5d7dbf;
 }
 
@@ -112,7 +113,7 @@
 }
 
 .p-nav__rightTop p{
-  font-size: 1px;
+  font-size: 12px;
   margin-left: 3px;
 }
 
@@ -142,7 +143,7 @@
 }
 
 .p-nav__rightBottom a{
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .p-nav__rightBottom > a > img{
@@ -194,7 +195,8 @@
 }
 
 /* SP style */
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){ */
+  @media screen and (max-width: 640px){
   .p-nav_pc{
     display: none;
   }

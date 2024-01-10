@@ -19,35 +19,9 @@
   position: relative;
 }
 
-/* 左右の矢印 */
-.c-slick__pickup >.slick-prev,
-.c-slick__pickup > .slick-next {
-  position: absolute;
-  z-index: 1;
-  top: 42%;
-  cursor: pointer; /*マウスカーソルを指マークに*/
-  outline: none; /*クリックをしたら出てくる枠線を消す*/
-  border-top: 5px solid #5d7dbf; /*矢印の色*/
-  border-right: 5px solid #5d7dbf; /*矢印の色*/
-  height: 20px;
-  width: 20px;
-}
-
-.c-slick__others >.slick-prev,
-.c-slick__others > .slick-next {
-  position: absolute;
-  z-index: 1;
-  top: 42%;
-  cursor: pointer; /*マウスカーソルを指マークに*/
-  outline: none; /*クリックをしたら出てくる枠線を消す*/
-  border-top: 5px solid #5d7dbf; /*矢印の色*/
-  border-right: 5px solid #5d7dbf; /*矢印の色*/
-  height: 20px;
-  width: 20px;
-}
-
 /* PC style */
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) { */
+@media screen and (min-width: 641px) {
 
   .p-event{
     background-color: #e0f1fc;
@@ -63,6 +37,7 @@
     display: flex;
     margin: 0 auto;
     overflow: hidden;
+    padding: 0 3%;
   }
   
   .c-slick__others li{
@@ -87,6 +62,7 @@
   .c-slick__others img{
     height: 150px;
     margin-bottom: 2%;
+    margin-top: 0;
     /* border-radius: 4%; */
   }
 
@@ -94,7 +70,7 @@
     margin-top: 5px;
     text-decoration: underline;
     text-align: left;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.8;
   }
 
@@ -160,7 +136,7 @@
   text-align: center;
   text-decoration: none;
   list-style: none;
-  font-size: 10%;
+  font-size: 12px;
   margin-top: 2%;
   padding-top: 1.5%;
   position: relative;
@@ -175,7 +151,7 @@
   text-align: center;
   text-decoration: none;
   list-style: none;
-  font-size: 10%;
+  font-size: 12px;
   position: relative;
   margin-top: 2%;
   padding-top: 1.5%;
@@ -190,7 +166,7 @@
   text-align: center;
   text-decoration: none;
   list-style: none;
-  font-size: 10%;
+  font-size: 12px;
   margin-top: 2%;
   padding-top: 1.5%;
   position: relative;
@@ -205,7 +181,7 @@
   text-align: center;
   text-decoration: none;
   list-style: none;
-  font-size: 10%;
+  font-size: 12px;
   margin-top: 2%;
   padding-top: 1.5%;
   position: relative;
@@ -256,11 +232,43 @@
   right: -5%;
   transform: rotate(45deg);
 }
+
+/* 左右の矢印 */
+.c-slick__pickup >.slick-prev,
+.c-slick__pickup > .slick-next {
+  position: absolute;
+  z-index: 1;
+  top: 42%;
+  cursor: pointer; /*マウスカーソルを指マークに*/
+  outline: none; /*クリックをしたら出てくる枠線を消す*/
+  border-top: 0.5vw/*4px*/ solid #5d7dbf;
+  border-right: 0.5vw/*4px*/ solid #5d7dbf;
+  /* width: 20px; */
+  /* height: 20px; */
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.c-slick__others >.slick-prev,
+.c-slick__others > .slick-next {
+  position: absolute;
+  z-index: 1;
+  top: 42%;
+  cursor: pointer; /*マウスカーソルを指マークに*/
+  outline: none; /*クリックをしたら出てくる枠線を消す*/
+  border-top: 0.5vw/*4px*/ solid #5d7dbf;
+  border-right: 0.5vw/*4px*/ solid #5d7dbf;
+  /* width: 20px; */
+  /* height: 20px; */
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
 }
 
 /* SP style */
-@media screen and (max-width: 768px){
-
+/* @media screen and (max-width: 768px){ */
+@media screen and (max-width: 640px){
   .p-event{
     background-color: #e0f1fc;
     padding: 12% 0 20%;
@@ -273,16 +281,18 @@
   
 
   .c-slick__others{
-    display: flex;
-    margin: 0 auto;
-    overflow: hidden;
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* overflow: hidden; */
     /* padding: 0 3.13%; */
-    padding: 0;
-    margin-top: 10%;
+    /* margin-top: 10%; */
+
+    /* padding: 0 7%; */
+    padding: 0 10%;
   }
 
   .c-slick__others li{
-    /* width: 33.3%; */
+    width: 33.3%;
     margin:0 18px;
     list-style: none;
     text-align:left;
@@ -291,9 +301,13 @@
   }
 
   .c-slick__others h3{
-    margin-top: 6px;
-    padding: 0 4%;
+    /* margin-top: 6px; */
+    width: 100%;
+    margin: 5% 0;
+    height: 100%;
+    /* padding: 0 4%; */
     font-size: 3.5vw;
+    /* font-size: 14px; */
     font-weight: bold;
     letter-spacing: 0.05em;
     line-height: 1.4;
@@ -301,9 +315,11 @@
   }
   
   .c-slick__others img{
-    width: 28vw;
+    /* width: 28vw; */
+    width: 100%;
     height: 14vh;
     border-radius: 5px;
+    margin-top: 0;
   }
 
   .c-slick__date{
@@ -329,63 +345,76 @@
   }
 
   .c-slick__eventReportSP{
-    width: 60%;
-    height: 15px;
+    /* width: 60%; */
+    width: 20vw;
+    /* height: 15px; */
+    height: 3vh;
     background-color: #ccc;
     color: white;
     content: "イベントレポート";
     text-align: center;
     text-decoration: none;
     list-style: none;
-    font-size: 10%;
+    /* font-size: 12px; */
+    /* font-size: 90%; */
+    font-size: 2.5vw;
     position: relative;
     margin-top: 5px;
-    padding-top: 3px;
+    padding-top: 3%;
   }
     
   .c-slick__recruitSP{
-    width: 50%;
-    height: 15px;
+    width: 15vw;
+    /* height: 3vh; */
+    height: 5vw;
     background-color: #ee8888;
     color: white;
     content: "参加者募集";
     text-align: center;
     text-decoration: none;
     list-style: none;
-    font-size: 10%;
+    font-size: 2.8vw;
     position: relative;
     margin-top: 5px;
-    padding-top: 3px;
+    padding-top: 3%;
   }
   
   .c-slick__centerSP{
-    width: 60%;
-    height: 15px;
+    /* width: 60%; */
+    width: 20vw;
+    /* height: 15px; */
+    height: 3vh;
     background-color: #ccc;
     color: white;
     content: "以布利センター";
     text-align: center;
     text-decoration: none;
     list-style: none;
-    font-size: 10%;
+    /* font-size: 12px; */
+    font-size: 90%;
     position: relative;
     margin-top: 5px;
-    padding-top: 3px;
+    /* padding-top: 3px; */
+    padding-top: 3%;
   }
   
   .c-slick__diarySP{
-    width: 60%;
-    height: 15px;
+    /* width: 60%; */
+    width: 20vw;
+    /* height: 15px; */
+    height: 3vh;
     background-color: #ccc;
     color: white;
     content: "海獣チームの日記";
     text-align: center;
     text-decoration: none;
     list-style: none;
-    font-size: 10%;
+    /* font-size: 12px; */
+    font-size: 90%;
     position: relative;
     margin-top: 5px;
-    padding-top: 3px;
+    /* padding-top: 3px; */
+    padding-top: 3%;
   }
 
   .c-slick__recruit{
@@ -425,6 +454,36 @@
   right: -2%;
   transform: rotate(45deg);
 }
+
+/* 左右の矢印 */
+.c-slick__pickup >.slick-prev,
+.c-slick__pickup > .slick-next {
+  position: absolute;
+  z-index: 1;
+  top: 42%;
+  cursor: pointer; /*マウスカーソルを指マークに*/
+  outline: none; /*クリックをしたら出てくる枠線を消す*/
+  border-top: 5px solid #5d7dbf; /*矢印の色*/
+  border-right: 5px solid #5d7dbf; /*矢印の色*/
+  height: 20px;
+  width: 20px;
+}
+
+.c-slick__others >.slick-prev,
+.c-slick__others > .slick-next {
+  position: absolute;
+  z-index: 1;
+  top: 42%;
+  cursor: pointer; /*マウスカーソルを指マークに*/
+  outline: none; /*クリックをしたら出てくる枠線を消す*/
+  border-top: 1.5vw/*4px*/ solid #5d7dbf; /*矢印の色*/
+  border-right: 1.5vw/*4px*/ solid #5d7dbf; /*矢印の色*/
+  /* width: 20px; */
+  /* height: 20px; */
+  width: 5vw;
+  height: 5vw;
+}
+
 /* 
   .c-slick__eventSP::after{
   position: absolute;
@@ -437,4 +496,5 @@
   padding: 0 10px;
   font-size: 13px;
   } */
+
 }

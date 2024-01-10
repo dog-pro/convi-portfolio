@@ -1,6 +1,7 @@
 /* SP style */
-@media screen and (max-width: 768px){
-
+/* @media screen and (max-width: 768px){ */
+@media screen and (max-width: 640px){
+  
 .p-hamburger__container{
   position: absolute;
   right: 8%;
@@ -68,10 +69,12 @@ header,main,footer{
   left: -50%;
   top: 0;
   transition: transform .3s;
-/* transform: translateX(-450px); */
-/*クリックしたら左に
+
+
+  /* transform: translateX(-450px); */
+  /*クリックしたら左に
   移動*/
-/* display: block; */
+  /* display: block; */
   /* ハンバーガーメニュー展開時、背景を固定 */
   /* height: 100%; */
   /* overflow: hidden; */
@@ -86,7 +89,6 @@ header,main,footer{
 .fixed{
   overflow: hidden;
   height: 100vh;
-  
 }
 
 .p-hamburger{
@@ -173,10 +175,16 @@ header,main,footer{
   margin-top: 30.5%;
 }
 
+.p-hamburger__sns > p{
+  font-size: 80%;
+}
+
 .p-hamburger__snsList{
   display: flex;
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  margin-top: 5%;
+  justify-content: space-evenly;
 }
 
 .p-hamburger__snsList li{
@@ -186,7 +194,8 @@ header,main,footer{
 
 .p-hamburger__snsList img{
   width: 100%;
-  height: 40px;
+  height: 100%;
+  /* height: 40px; */
 }
 
 /* ピンクボタン */
@@ -211,38 +220,66 @@ height: 20px;
 
 .p-inputbox input{
   width: 100%;
-  height: 50px;
-  padding: 5%;
+  /* height: 50px; */
+  height: 80px;
+  padding-left: 5%;
+  font-size: 90%;
 }
 
 .p-inputbox img{
-position: absolute;
-width: 25px;
-height: 25px;
-right: 5%;
-top: 25%;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 5%;
+  /* top: 25%; */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .c-contact{
+  position: relative;
   width: 100%;
-  height: 60px;
+  /* height: 60px; */
+  height: 90px;
   background-color: white;
   margin-top: 10%;
-  padding: 10% 17%;
+  /* padding: 10% 17%; */
 }
 
-.c-contact a{
+/* .c-contact a{
   display: flex;
   text-align: center;
-}
+} */
 
 .c-contact img{
-  width: 20px;
-  height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 13%;
+
+  /* width: 20px; */
+  width: 10%;
+  /* height: 20px; */
+  height: 40%;
   margin-right: 5%;
 }
 
 .c-contact p{
+  position: absolute;
+  left: 30%;
+  /* transform: translateX(-50%); */
+  top: 50%;
+  transform: translateY(-50%);
   color: #5d7dbf;
 }
+
+/* .c-contact p::before{
+  background-image: url('../icon/hamburger/telephone.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+} */
+
 }

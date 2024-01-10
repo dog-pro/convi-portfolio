@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-around; /* メニューアイテムを中央揃えに */
   /* margin: 0 4px; */
-  font-size: 10px;
+  font-size: 12px;
   align-items: center;
   list-style: none;
   text-decoration: none;
@@ -26,8 +26,10 @@
 }
 
 .menu-item img{
-  width: 1vw;
-  height: 2vh;
+  /* width: 1vw; */
+  width: 20px;
+  /* height: 2vh; */
+  width: 20px;
   margin: 0 7px;
 }
 
@@ -61,7 +63,6 @@ border-left: none;
   /* justify-content: center; */
   text-decoration: none; /* リンクの下線を非表示 */
   width: 100%;
-  /* font-size: 10px; */
   font-size: 12px;
 }
 
@@ -155,7 +156,7 @@ border-left: none;
 }
 
 .p-nav__rightTop p{
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 3px;
 }
 
@@ -169,8 +170,10 @@ border-left: none;
 }
 
 .p-nav__rightTopIcon{
-  width: 0.8vw;
-  height: 1.4vh;
+  /* width: 0.8vw; */
+  width: 15px;
+  /* height: 1.4vh; */
+  width: 15px;
 }
 
 .p-nav__dropdownIcon{
@@ -185,12 +188,14 @@ border-left: none;
 }
 
 .p-nav__rightBottom a{
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .p-nav__rightBottom > a > img{
-  width: 0.8vw;
-  height: 1.4vh;
+  /* width: 0.8vw; */
+  width: 15px;
+  /* height: 1.4vh; */
+  height: 15px;
   margin-right: 5px;
 }
 
@@ -217,7 +222,7 @@ border-left: none;
 
 .p-nav__rightSub a{
   padding: 5px 0;
-  font-size: 10px;
+  font-size: 12px;
   display: block;
   text-decoration: none;
   cursor: pointer;
