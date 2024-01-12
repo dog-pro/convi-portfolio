@@ -16,8 +16,9 @@ body{
 /* @media screen and (min-width: 769px) { */
   @media screen and (min-width: 641px) {
 body{
-  /* min-width: 1174px; */
+  /* min-width: 1200px; */
   /* padding-top: 60px; */
+  overflow-x: scroll;
 }
 
 .wrapper{

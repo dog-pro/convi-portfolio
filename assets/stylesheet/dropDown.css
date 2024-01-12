@@ -6,7 +6,6 @@
 .menu-list {
   display: flex;
   justify-content: space-around; /* メニューアイテムを中央揃えに */
-  /* margin: 0 4px; */
   font-size: 12px;
   align-items: center;
   list-style: none;
@@ -16,7 +15,6 @@
 
 .menu-item {
   /* width: 160px; */
-  /* width: 140px; */
   /* text-align: left; */
   /* margin-right: 3%; */
   border-left: 1px solid #cccccc;
@@ -66,8 +64,6 @@ border-left: none;
   font-size: 12px;
 }
 
-
-
 /* ドロップダウンメニュー */
 .drop-menu {
   position: relative;
@@ -78,12 +74,10 @@ border-left: none;
   left: 0;
   position: absolute;
   top: 252%;
-  transform: scaleY(0); /* ドロップダウンメニューの非表示 */
+  transform: scaleY(0);/* ドロップダウンメニューの非表示 */
   transform-origin: center top; /* 変形を適応する基準を設定 */
   transition: transform .6s; /* 表示の変化をアニメーション化 */
-  /* width: max-content; */
-  /* width: 140px; */
-  width: 160px;
+  width: 170px;
   z-index: 1;
   padding: 0 10%;
   text-align: center;
@@ -98,6 +92,7 @@ border-left: none;
   border-bottom: solid 0.2px #5d7dbf;
   padding: 0 2%;
   justify-content: center;
+  line-height: 1.3;
 }
 
 
