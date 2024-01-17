@@ -2,7 +2,6 @@
 
 body{
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, 'Droid Sans', sans-serif;
-  overflow-x: hidden;
 }
 
 /* main */
@@ -11,15 +10,9 @@ body{
   line-height: 0.5;
 }
 
-
 /* PC style */
 /* @media screen and (min-width: 769px) { */
   @media screen and (min-width: 641px) {
-body{
-  /* min-width: 1200px; */
-  /* padding-top: 60px; */
-  overflow-x: scroll;
-}
 
 .wrapper{
   min-width: 1200px;
@@ -34,8 +27,6 @@ header{
 .p-nav_pc{
   min-width: 1174px;
   height: 60px;
-  /* height: 6%; */
-  /* padding: 0.5% 1.5%; */
   padding: 0.5% 1.5% 0.5% 0.5%;
   position: fixed;
   background-color: white;
@@ -132,6 +123,9 @@ header{
   color: #a8a9a9;
 }
 
+/* メイントップ画像 */
+/* slick.cssに記載あり */
+
 /* attention */
 .p-attention__sp{
   display: none;
@@ -154,11 +148,13 @@ header{
   font-size: 13px;
   margin-bottom: 10px;
 }
+
 .p-attention__list:first-child{
   text-decoration:underline double;
   padding: 1%;
   text-align: center;
 }
+
 .p-attention__Button{
   width: 25%;
   height: 30px;
@@ -168,28 +164,12 @@ header{
   margin: 0 auto;
   padding: 2.3em 1em 0.4em;
 }
-/* .p-attention__button{
-  width: 150px;
-  height: 27px;
-  background: #5d7dbf;
-  color: white;
-  padding: 5px 27px;
-  font-size: 80%;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.p-attention__button:hover{
-  opacity: 0.7;
-} */
 
 /* ピックアップ */
 .p-pickup{
   background-color: #e0f1fc;
   padding: 60px 0;
 }
-
-
 
 /* スライダー */
 /* 内容はslick__others.cssに記載 */
