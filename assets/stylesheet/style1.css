@@ -187,7 +187,13 @@ header{
   left: 45%;
   top: 34%;
   margin-left: 368px;
+  cursor: pointer;
 }
+
+.p-news__list:hover{
+  opacity: 0.7;
+}
+
 .p-news__list a{
   display: block;
   position: relative;

@@ -41,6 +41,7 @@
   .fixed{
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 2;
   }
 }
@@ -58,7 +59,13 @@
     /* opacity: 0.6; */
     border-radius: 50%;
     z-index: 4;
+    cursor: pointer;
   }
+
+  .c-scrollButton:hover{
+    opacity: 0.7;
+  }
+
   .c-scrollButton a{
     position: relative;
     display: block;

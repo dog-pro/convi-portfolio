@@ -4,14 +4,17 @@
   
 .p-hamburger__container{
   position: absolute;
-  right: 8%;
+  width: 8vw;
+  right: 5%;
+  cursor: pointer;
 }
 
 /* ハンバーガーメニューのボタン本体 */
 .p-hamburger__button{
   position: relative;
   height: 5vh;
-  width: 20vw;
+  /* width: 20vw; */
+  width: 100%;
   background-color: white;
 }
 
@@ -19,9 +22,10 @@
 .p-hamburger__button span {
   position: absolute;
   display: block;
-  width: 30%;
+  /* width: 30%; */
+  width: 100%;
   height: 5px;
-  right: -25%;
+  /* right: -25%; */
   bottom: 10%;
   background-color: #5d7dbf;
   transition: all ease .0.5s; /*ハンバーガーメニュークリック時の三本線の動きを遅延*/
@@ -65,11 +69,15 @@ header,main,footer{
 }
 
 .close{
-  position: fixed;
+  /* position: fixed;
   left: -50%;
   top: 0;
-  transition: transform .3s;
+  transition: transform .3s; */
 
+  position: relative;
+  left: -70%;
+  top: 0;
+  transition: transform .3s;
 
   /* transform: translateX(-450px); */
   /*クリックしたら左に
@@ -112,15 +120,28 @@ header,main,footer{
 }
 
 .is-active{
-  position: relative;
+  /* position: relative;
   width: 70%;
   opacity: 1;
   z-index: 1000;
   right: -30%;
   padding: 7.5% 7.5% 11.3%;
-  overflow-x: hidden;
+  overflow-x: hidden; */
+
   /* 表示の変化をアニメーション化 */
+  /* transition: transform .16s; */
+
+
+  /* 柴田さん修正版 */
+  position: fixed;
+  width: 70%;
+  opacity: 1;
+  z-index: 1000;
+  left: 30%;
+  padding: 7.5% 7.5% 11.3%;
+  overflow-x: hidden;
   transition: transform .16s;
+  overflow: auto;
 }
 
 /* .p-hamburger__container{
@@ -169,6 +190,10 @@ header,main,footer{
   height: 30%;
 }
 
+.c-whiteBtn img:hover{
+  opacity: 0.7;
+}
+
 .p-hamburger__sns{
   color: white;
   text-align: center;
@@ -198,11 +223,19 @@ header,main,footer{
   /* height: 40px; */
 }
 
+.p-hamburger__snsList img:hover{
+  opacity: 0.7;
+}
+
 /* ピンクボタン */
 .c-pinkBtn img{
   width: 100%;
   height: 30%;  
   margin: 9.5% auto 0;
+}
+
+.c-pinkBtn img:hover{
+  opacity: 0.7;
 }
 
 /* 検索タグ */
@@ -244,6 +277,10 @@ height: 20px;
   background-color: white;
   margin-top: 10%;
   /* padding: 10% 17%; */
+}
+
+.c-contact:hover{
+  opacity: 0.7;
 }
 
 /* .c-contact a{
