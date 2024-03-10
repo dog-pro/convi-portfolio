@@ -14,9 +14,6 @@
 }
 
 .menu-item {
-  /* width: 160px; */
-  /* text-align: left; */
-  /* margin-right: 3%; */
   border-left: 1px solid #cccccc;
   margin: 0 4px;
   position: relative;
@@ -24,9 +21,7 @@
 }
 
 .menu-item img{
-  /* width: 1vw; */
   width: 20px;
-  /* height: 2vh; */
   width: 20px;
   margin: 0 7px;
 }
@@ -58,7 +53,6 @@ border-left: none;
   color: #666; /* メニューアイテム内のリンクテキストの色 */
   display: flex;
   height: 15px;
-  /* justify-content: center; */
   text-decoration: none; /* リンクの下線を非表示 */
   width: 100%;
   font-size: 12px;
@@ -105,10 +99,8 @@ border-left: none;
   align-items: center;
   color: #666; /* メニューアイテム内のリンクテキストの色 */
   display: flex;
-  /* height: 50px; */
   justify-content: center;
   text-decoration: none; /* リンクの下線を非表示 */
-  /* width: 120px; */
   border-left: 0 solid #cccccc; /* メニューアイテムの左ボーダー */
   color: #5d7dbf;
   padding: 22% 0;
@@ -155,19 +147,12 @@ border-left: none;
   margin-left: 3px;
 }
 
-/* .p-nav__rightTop p::after{
-  margin-left: 2px;
-  content: "▼";
-} */
-
 .p-nav__rightTop a{
   display: flex;
 }
 
 .p-nav__rightTopIcon{
-  /* width: 0.8vw; */
   width: 15px;
-  /* height: 1.4vh; */
   width: 15px;
 }
 
@@ -187,9 +172,7 @@ border-left: none;
 }
 
 .p-nav__rightBottom > a > img{
-  /* width: 0.8vw; */
   width: 15px;
-  /* height: 1.4vh; */
   height: 15px;
   margin-right: 5px;
 }
@@ -207,7 +190,6 @@ border-left: none;
 
 .p-nav__rightSub li{
   width: 60px;
-  /* width: max-content; */
   text-align: center;
   align-items: center;
   background-color: #dcdcdc;

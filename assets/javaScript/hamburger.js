@@ -7,7 +7,14 @@ console.log('クリックしたよ');
     $('.wrapper').toggleClass('close','.slow');
     // $('body').toggleClass('close','.slow');
 
-    document.querySelector('html').style.overflow = 'hidden';
-    document.querySelector('body').style.overflow = 'hidden';
+    // document.querySelector('html').style.overflow = 'hidden';
+    // document.querySelector('body').style.overflow = 'hidden';
+
+    // ハンバーガーメニューが開いたときの処理
+    if ($('.p-hamburger').hasClass('is-active')) {
+      $('html, body').css('overflow', 'hidden'); // ページ全体のスクロールを無効化
+    } else {
+      $('html, body').css('overflow', 'auto'); // ページ全体のスクロールを有効化
+    }
   });
 });

@@ -8,7 +8,6 @@
     right: 60px;
     bottom: 50px;
     background: #fea8a8;
-    /* opacity: 0.6; */
     border-radius: 50%;
     z-index: 4;
   }
@@ -28,7 +27,6 @@
     position: absolute;
     width: 25px;
     height: 25px;
-    /* top: -5px; */
     top: 0;
     bottom: 0;
     right: 0;
@@ -56,7 +54,6 @@
     right: 4%;
     bottom: 2%;
     background: #fea8a8;
-    /* opacity: 0.6; */
     border-radius: 50%;
     z-index: 4;
     cursor: pointer;

@@ -124,7 +124,6 @@
     position: absolute;
     bottom: -25px;
     display: block;
-    /* width: 100%; */
     padding: 0;
     margin: 0;
     list-style: none;
@@ -189,9 +188,6 @@
     content: '•';
     text-align: center;
 
-    /* opacity: .25; */
-    /* color: #5471ad; */
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -212,7 +208,6 @@
 
     display: inline-block;
 
-    /* width: 15px; */
     width: 8%;
     height: 15px;
     margin: 0 5px;
