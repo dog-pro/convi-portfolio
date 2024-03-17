@@ -1,5 +1,4 @@
 /* PC style */
-/* @media screen and (min-width: 769px) { */
 @media screen and (min-width: 641px) {
   .c-scrollButton{
     width: 50px;
@@ -45,7 +44,6 @@
 }
 
 /* SP style */
-/* @media screen and (max-width: 768px){ */
 @media screen and (max-width: 640px){
   .c-scrollButton{
     width: 3.3em;

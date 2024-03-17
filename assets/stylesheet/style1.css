@@ -11,7 +11,6 @@
   }
 
   /* PC style */
-  /* @media screen and (min-width: 769px) { */
 @media screen and (min-width: 641px) {
 
   .wrapper{
@@ -51,12 +50,6 @@
   .p-nav__left a:hover{
     opacity: 0.7;
   }
-
-  /* .p-nav__left img{
-    width: 75%;
-    height: 2.3vh;
-    margin-left: 3%;
-  } */
 
   .p-nav__left a > p{
     margin: 0;
@@ -744,7 +737,7 @@
     height: 10px;
     margin-left: 5px;
   }
-  /* --------------------------------------- */
+
   .p-sitemap__listPC > li{
     margin-top: 20px;
     font-size: 14px;

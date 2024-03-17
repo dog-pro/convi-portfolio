@@ -325,17 +325,7 @@
     letter-spacing: 0;
   }
 
-
   /* ・・・ */
-  /* .p-middle{
-    width: 100vw;
-    flex-wrap: wrap;
-  }
-
-  .p-middle section{
-    width: 100vw;
-  } */
-
   /* 時間・料金・アクセス */
   .p-time{
     padding: 7vw 0;
@@ -770,16 +760,6 @@
     display: none;
     padding: none;
     }
-
-  /* .c-sitemap__sp p::after{
-    background-color: white;
-    color: #fea8a8;
-    content: "↓";
-    border-radius: 50%;
-    margin-left: 5px;
-    font-size: 5vw;
-    font-weight: bold;
-  } */
 
   .l-footer{
     background-color: #5d7dbf;

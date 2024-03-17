@@ -29,19 +29,3 @@ $(function() {
     });
   });
 });
-//   const scrollHeight = $(document).height();/*ページ全体の高さ*/
-//   const scrollPosition = $(window).height() + $(window).scrollTop();/*ページの一番上からスクロールされた距離*/
-//   const footHeight = $("footer").height();/*フッターの高さ*/
-
-//   if ( scrollHeight - scrollPosition  <= footHeight ) {
-//       $(".c-scrollButton").css({
-//           "position":"absolute",
-//           "bottom": 10  + footHeight,
-//       });
-//   } else {
-//       $(".float-buwrap").css({
-//           "position":"fixed",
-//           "bottom": "10px",
-//       });
-//   }
-// });

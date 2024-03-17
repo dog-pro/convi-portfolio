@@ -1,125 +1,112 @@
 /* PC style */
-/* @media screen and (min-width: 769px) { */
 @media screen and (min-width: 641px) {
-.p-openhourSP{
-  display: none;
-}
+  .p-openhourSP{
+    display: none;
+  }
 
-.p-openhour{
-  position: absolute;
-  right: 5%;
-  bottom: 3.5%;
-  width: 200px;
-  padding: 10px;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
-}
+  .p-openhour{
+    position: absolute;
+    right: 5%;
+    bottom: 3.5%;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
 
-.p-openhour li{
-  margin-bottom: 10px;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1.5;
-  color: #5471ad;
-}
+  .p-openhour li{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #5471ad;
+  }
 
-.p-openhour li:last-child{
-  margin-bottom: 0;
-}
+  .p-openhour li:last-child{
+    margin-bottom: 0;
+  }
 
-.p-openhour a{
-  list-style: none;
-  text-decoration: none;
-  cursor: pointer;
-}
+  .p-openhour a{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-.p-openhour__title img{
-  width: 18px;
-  height: 18px;
-  margin-right: 5px;
-}
+  .p-openhour__title img{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
 
-.p-openhour__title{
-  border-bottom: 1px solid #5471ad;
-  padding: 5px;
-  font-size: 15px;
-}
+  .p-openhour__title{
+    border-bottom: 1px solid #5471ad;
+    padding: 5px;
+    font-size: 15px;
+  }
 
-.p-openhour__time{
-  font-size: 23px;
-}
+  .p-openhour__time{
+    font-size: 23px;
+  }
 
-.p-openhour__guide{
-  font-size: 12px;
-  font-weight: normal;
-}
+  .p-openhour__guide{
+    font-size: 12px;
+    font-weight: normal;
+  }
 
-.p-openhour__buttonPink{
-  position: relative;
-  padding: 10px;
-  background-color: #fea8a8;
-}
+  .p-openhour__buttonPink{
+    position: relative;
+    padding: 10px;
+    background-color: #fea8a8;
+  }
 
-.p-openhour__buttonPink:hover{
-  opacity: 0.7;
-}
+  .p-openhour__buttonPink:hover{
+    opacity: 0.7;
+  }
 
-.p-openhour__button{
-  padding: 10px;
-  background-color: #5471ad;
-}
+  .p-openhour__button{
+    padding: 10px;
+    background-color: #5471ad;
+  }
 
-.p-openhour__button:hover{
-  opacity: 0.7;
-}
+  .p-openhour__button:hover{
+    opacity: 0.7;
+  }
 
-.p-openhour__button a{
-  position: relative;
-  color: white;
-  font-size: 12px;
-}
+  .p-openhour__button a{
+    position: relative;
+    color: white;
+    font-size: 12px;
+  }
 
-.p-openhour__buttonPink a{
-  position: relative;
-  color: white;
-  font-size: 12px;
-}
+  .p-openhour__buttonPink a{
+    position: relative;
+    color: white;
+    font-size: 12px;
+  }
 
-.p-openhour__button a > img{
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-left: 10px;
-  width: 12px;
-  height: 12px;
-  transform: rotate(-90deg);
-}
+  .p-openhour__button a > img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(-90deg);
+  }
 
-.p-openhour__buttonPink a > img{
-  position: absolute;
-  top: 45%;
-  right: 0;
-  margin-left: 10px;
-  width: 12px;
-  height: 12px;
-  transform: rotate(-90deg);
-}
-
-/* .p-openhour__button::after{
-background-color: white;
-color: #5471ad;
-content: "→";
-position: absolute;
-top: 30%;
-right: 10px;
-border-radius: 50%;
-font-weight: bold 3px;
-} */
+  .p-openhour__buttonPink a > img{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(-90deg);
+  }
 
 }
 
 /* SP style */
-/* @media screen and (max-width: 768px){ */
   @media screen and (max-width: 640px){
   .p-openhour{
     display: none;
@@ -196,12 +183,6 @@ font-weight: bold 3px;
     color:inherit;
     text-align: center;
   }
-
-  /* .p-openhourSP__buttonPink p{
-    line-height: 1.4;
-    letter-spacing: 0.1em;
-    font-size: 90%;
-  } */
   
   .p-openhourSP__button{
     position: relative;
@@ -210,12 +191,6 @@ font-weight: bold 3px;
     background-color: #5471ad;
     text-align: center;
   }
-
-  /* .p-openhourSP__button p{
-    line-height: 1.4;
-    letter-spacing: 0.2em;
-    font-size: 60%;
-  } */
 
   .p-openhourSP__buttonTitle{
     line-height: 1.4;
@@ -226,18 +201,6 @@ font-weight: bold 3px;
   .p-openhourSP__button:hover{
     opacity: 0.7;
   }
-  
-  /* .p-openhourSP__button::after{
-    background-color: white;
-    color: #5471ad;
-    content: "→";
-    position: absolute;
-    top: 35%;
-    right: 20px;
-    border-radius: 50%;
-    font-size: 3.3vw;
-    font-weight: bold ;
-  } */
   
   .p-openhourSP__button a{
     color: white;

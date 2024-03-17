@@ -1,6 +1,5 @@
 
 /* PC style */
-/* @media screen and (min-width: 769px) { */
 @media screen and (min-width: 641px) {
   .p-nav__middle{
     display: flex;
@@ -116,11 +115,6 @@
     margin-left: 3px;
   }
 
-  /* .p-nav__rightTop p::after{
-    margin-left: 2px;
-    content: "▼";
-  } */
-
   .p-nav__rightTop a{
     display: flex;
   }
@@ -194,7 +188,6 @@
 }
 
 /* SP style */
-/* @media screen and (max-width: 768px){ */
   @media screen and (max-width: 640px){
   .p-nav_pc{
     display: none;
