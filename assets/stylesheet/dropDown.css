@@ -149,6 +149,8 @@ border-left: none;
 
 .p-nav__rightTop a{
   display: flex;
+  color: #666;
+  text-decoration-line: none;
 }
 
 .p-nav__rightTopIcon{
@@ -169,6 +171,8 @@ border-left: none;
 
 .p-nav__rightBottom a{
   font-size: 12px;
+  color: #666;
+  text-decoration-line: none;
 }
 
 .p-nav__rightBottom > a > img{

@@ -52,6 +52,11 @@
     color: #5471ad;
   }
 
+  .c-slick__others li > a{
+  text-decoration: none;
+  color: #5e7dbe;
+  }
+
   .c-slick__others h3{
     margin: 12px 0 5px;
     padding: 0 10px;
@@ -241,6 +246,11 @@
     text-align:left;
     cursor: pointer;
     color: #5471ad;
+  }
+
+  .c-slick__others li a{
+    text-decoration-line: none;
+    color: #5d7dbf;
   }
 
   .c-slick__others h3{
